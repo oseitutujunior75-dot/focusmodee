@@ -2,44 +2,520 @@
   "subject": "science",
   "topics": [
     {
-      "topicName": "Cell Biology & Biochemistry",
-      "nodeRange": [1, 40],
+      "topicName": "Cell Biology, Physiology & Ecology",
+      "nodeRange": [1, 30],
       "questions": [
         {
-          "q": "Which organelle is primarily responsible for ATP synthesis and cellular respiration?",
+          "q": "Which cell organelle is known as the powerhouse of the cell because it generates chemical energy (ATP)?",
           "options": [
             {"t": "Mitochondrion", "c": true},
             {"t": "Ribosome", "c": false},
-            {"t": "Golgi apparatus", "c": false},
-            {"t": "Endoplasmic reticulum", "c": false}
+            {"t": "Golgi body", "c": false},
+            {"t": "Centriole", "c": false}
           ],
-          "exp": "Mitochondria generate most of the chemical energy needed to power cellular biochemical reactions."
+          "exp": "Mitochondria carry out aerobic cellular respiration, producing ATP to power cellular activities."
         },
         {
-          "q": "What is the primary end product of glycolysis in animal cells under anaerobic conditions?",
+          "q": "What is the primary function of chlorophyll in green plants during photosynthesis?",
           "options": [
-            {"t": "Lactic acid", "c": true},
-            {"t": "Ethanol", "c": false},
-            {"t": "Carbon dioxide", "c": false},
-            {"t": "Acetyl-CoA", "c": false}
+            {"t": "To absorb light energy from the sun", "c": true},
+            {"t": "To absorb mineral salts from the soil", "c": false},
+            {"t": "To transport water up the stem", "c": false},
+            {"t": "To release carbon dioxide into the air", "c": false}
           ],
-          "exp": "In the absence of sufficient oxygen, pyruvate is converted into lactic acid during anaerobic respiration in animals."
+          "exp": "Chlorophyll traps sunlight, converting light energy into chemical energy during photosynthesis."
         },
         {
-          "q": "Which blood component is primarily responsible for oxygen transport throughout the human body?",
+          "q": "Which blood component is responsible for carrying oxygen from the lungs to body tissues?",
           "options": [
-            {"t": "Erythrocytes (Red blood cells)", "c": true},
-            {"t": "Leukocytes (White blood cells)", "c": false},
-            {"t": "Platelets (Thrombocytes)", "c": false},
-            {"t": "Plasma proteins", "c": false}
+            {"t": "Red blood cells (Erythrocytes)", "c": true},
+            {"t": "White blood cells (Leukocytes)", "c": false},
+            {"t": "Blood platelets", "c": false},
+            {"t": "Blood plasma", "c": false}
           ],
-          "exp": "Red blood cells contain hemoglobin, which binds oxygen molecules in the lungs and releases them in tissues."
+          "exp": "Red blood cells contain hemoglobin which reversibly binds to oxygen molecules."
+        },
+        {
+          "q": "What type of symbiotic relationship benefits both interacting organisms?",
+          "options": [
+            {"t": "Mutualism", "c": true},
+            {"t": "Parasitism", "c": false},
+            {"t": "Predation", "c": false},
+            {"t": "Commensalism", "c": false}
+          ],
+          "exp": "In mutualism, both species derive mutual biological benefits from their association."
+        },
+        {
+          "q": "The process by which water vapor escapes from the aerial parts of a plant into the atmosphere is called...",
+          "options": [
+            {"t": "Transpiration", "c": true},
+            {"t": "Respiration", "c": false},
+            {"t": "Translocation", "c": false},
+            {"t": "Guttation", "c": false}
+          ],
+          "exp": "Transpiration is the evaporation of water through stomata in plant leaves."
+        },
+        {
+          "q": "Which of the following blood groups is considered the universal donor?",
+          "options": [
+            {"t": "Group O", "c": true},
+            {"t": "Group A", "c": false},
+            {"t": "Group B", "c": false},
+            {"t": "Group AB", "c": false}
+          ],
+          "exp": "Type O red blood cells lack A and B antigens, minimizing transfusion reactions."
+        },
+        {
+          "q": "What is the main excretory product produced by the human liver from the breakdown of excess amino acids?",
+          "options": [
+            {"t": "Urea", "c": true},
+            {"t": "Uric acid", "c": false},
+            {"t": "Bile salts", "c": false},
+            {"t": "Lactic acid", "c": false}
+          ],
+          "exp": "Deamination in the liver converts excess amino groups into urea for renal excretion."
+        },
+        {
+          "q": "Which vitamin deficiency causes the disease known as scurvy?",
+          "options": [
+            {"t": "Vitamin C", "c": true},
+            {"t": "Vitamin A", "c": false},
+            {"t": "Vitamin D", "c": false},
+            {"t": "Vitamin K", "c": false}
+          ],
+          "exp": "Ascorbic acid (Vitamin C) deficiency impairs collagen synthesis, resulting in scurvy."
+        },
+        {
+          "q": "What is the structural and functional unit of the human kidney?",
+          "options": [
+            {"t": "Nephron", "c": true},
+            {"t": "Neuron", "c": false},
+            {"t": "Alveolus", "c": false},
+            {"t": "Villus", "c": false}
+          ],
+          "exp": "Nephrons filter blood, reabsorb nutrients, and produce urine in the kidneys."
+        },
+        {
+          "q": "Which gas is evolved during anaerobic respiration in yeast (fermentation)?",
+          "options": [
+            {"t": "Carbon dioxide", "c": true},
+            {"t": "Oxygen", "c": false},
+            {"t": "Nitrogen", "c": false},
+            {"t": "Hydrogen", "c": false}
+          ],
+          "exp": "Yeast breaks down glucose into ethanol and carbon dioxide gas without oxygen."
+        },
+        {
+          "q": "In a food chain, organisms that manufacture their own food using solar energy are called...",
+          "options": [
+            {"t": "Producers (Autotrophs)", "c": true},
+            {"t": "Primary consumers", "c": false},
+            {"t": "Decomposers", "c": false},
+            {"t": "Carnivores", "c": false}
+          ],
+          "exp": "Green plants and algae are primary producers forming the base of ecological pyramids."
+        },
+        {
+          "q": "Which part of the human brain controls balance, posture, and coordinated voluntary movements?",
+          "options": [
+            {"t": "Cerebellum", "c": true},
+            {"t": "Cerebrum", "c": false},
+            {"t": "Medulla oblongata", "c": false},
+            {"t": "Hypothalamus", "c": false}
+          ],
+          "exp": "The cerebellum coordinates fine motor skills, equilibrium, and muscle tone."
+        },
+        {
+          "q": "What is the mode of nutrition in fungi?",
+          "options": [
+            {"t": "Saprotrophic / Heterotrophic", "c": true},
+            {"t": "Photosynthetic autotrophic", "c": false},
+            {"t": "Chemosynthetic", "c": false},
+            {"t": "Holophytic", "c": false}
+          ],
+          "exp": "Fungi secrete digestive enzymes externally and absorb digested organic matter."
+        },
+        {
+          "q": "Which hormone regulates blood sugar levels by promoting glucose uptake into cells?",
+          "options": [
+            {"t": "Insulin", "c": true},
+            {"t": "Adrenaline", "c": false},
+            {"t": "Thyroxine", "c": false},
+            {"t": "Glucagon", "c": false}
+          ],
+          "exp": "Insulin is secreted by the pancreas to lower high blood glucose levels."
+        },
+        {
+          "q": "The fusion of a male gamete with a female gamete is termed...",
+          "options": [
+            {"t": "Fertilization", "c": true},
+            {"t": "Pollination", "c": false},
+            {"t": "Germination", "c": false},
+            {"t": "Mitosis", "c": false}
+          ],
+          "exp": "Fertilization produces a diploid zygote combining genetic material from both parents."
+        },
+        {
+          "q": "Which plant tissue transports manufactured food substances from leaves to other parts of the plant?",
+          "options": [
+            {"t": "Phloem", "c": true},
+            {"t": "Xylem", "c": false},
+            {"t": "Cortex", "c": false},
+            {"t": "Cambium", "c": false}
+          ],
+          "exp": "Phloem tissue conducts organic nutrients bidirectionally throughout vascular plants."
+        },
+        {
+          "q": "What is the primary vector responsible for transmitting malaria parasites to humans?",
+          "options": [
+            {"t": "Female Anopheles mosquito", "c": true},
+            {"t": "Tsetse fly", "c": false},
+            {"t": "Housefly", "c": false},
+            {"t": "Blackfly", "c": false}
+          ],
+          "exp": "Plasmodium parasites are injected into human bloodstreams by infected female Anopheles mosquitoes."
+        },
+        {
+          "q": "Which cellular division process results in the formation of four genetically diverse haploid gametes?",
+          "options": [
+            {"t": "Meiosis", "c": true},
+            {"t": "Mitosis", "c": false},
+            {"t": "Binary fission", "c": false},
+            {"t": "Budding", "c": false}
+          ],
+          "exp": "Meiosis reduces chromosome number by half to produce sex cells."
+        },
+        {
+          "q": "What term describes the variety of all living organisms within a given ecosystem?",
+          "options": [
+            {"t": "Biodiversity", "c": true},
+            {"t": "Biomass", "c": false},
+            {"t": "Biosphere", "c": false},
+            {"t": "Biome", "c": false}
+          ],
+          "exp": "Biodiversity encompasses genetic, species, and ecological diversity."
+        },
+        {
+          "q": "Which blood vessels possess thick muscular walls and transport oxygenated blood away from the heart?",
+          "options": [
+            {"t": "Arteries", "c": true},
+            {"t": "Veins", "c": false},
+            {"t": "Capillaries", "c": false},
+            {"t": "Venules", "c": false}
+          ],
+          "exp": "Arteries withstand high systolic pressure driven by ventricular contractions."
+        },
+        {
+          "q": "What is the role of hydrochloric acid in the human stomach during digestion?",
+          "options": [
+            {"t": "To activate pepsinogen and kill ingested bacteria", "c": true},
+            {"t": "To emulsify dietary fats", "c": false},
+            {"t": "To absorb digested amino acids", "c": false},
+            {"t": "To digest dietary starch", "c": false}
+          ],
+          "exp": "HCl provides the acidic pH required by pepsin and sterilizes food."
+        },
+        {
+          "q": "Which genetic term describes an organism having two identical alleles for a specific trait?",
+          "options": [
+            {"t": "Homozygous", "c": true},
+            {"t": "Heterozygous", "c": false},
+            {"t": "Phenotypic", "c": false},
+            {"t": "Polygenic", "c": false}
+          ],
+          "exp": "Homozygous individuals carry matching alleles (e.g., TT or tt) for a gene."
+        },
+        {
+          "q": "What is the primary function of root hairs in flowering plants?",
+          "options": [
+            {"t": "To maximize surface area for absorption of water and mineral ions", "c": true},
+            {"t": "To anchor the plant securely against wind", "c": false},
+            {"t": "To store excess starch reserves", "c": false},
+            {"t": "To carry out photosynthesis underground", "c": false}
+          ],
+          "exp": "Root hair extensions vastly increase surface area for osmosis and ion uptake."
+        },
+        {
+          "q": "Which respiratory disorder is characterized by inflammation and constriction of bronchial airways?",
+          "options": [
+            {"t": "Asthma", "c": true},
+            {"t": "Pneumonia", "c": false},
+            {"t": "Tuberculosis", "c": false},
+            {"t": "Emphysema", "c": false}
+          ],
+          "exp": "Asthma triggers airway spasms and mucus production, causing breathing difficulties."
+        },
+        {
+          "q": "What type of skeleton do insects and arthropods possess to protect internal organs?",
+          "options": [
+            {"t": "Exoskeleton", "c": true},
+            {"t": "Endoskeleton", "c": false},
+            {"t": "Hydrostatic skeleton", "c": false},
+            {"t": "Cartilaginous skeleton", "c": false}
+          ],
+          "exp": "Arthropods feature a hard chitinous exoskeleton supporting their bodies."
         }
       ]
     },
     {
-      "topicName": "General Physics & Mechanics",
-      "nodeRange": [41, 80],
+      "topicName": "Matter, Atomic Structure & Chemical Reactions",
+      "nodeRange": [31, 60],
+      "questions": [
+        {
+          "q": "What subatomic particle carries a negative electrical charge and orbits the atomic nucleus?",
+          "options": [
+            {"t": "Electron", "c": true},
+            {"t": "Proton", "c": false},
+            {"t": "Neutron", "c": false},
+            {"t": "Positron", "c": false}
+          ],
+          "exp": "Electrons occupy energy levels surrounding the dense central nucleus."
+        },
+        {
+          "q": "What is the chemical formula for common table salt?",
+          "options": [
+            {"t": "NaCl", "c": true},
+            {"t": "HCl", "c": false},
+            {"t": "NaOH", "c": false},
+            {"t": "Na2CO3", "c": false}
+          ],
+          "exp": "Sodium chloride (NaCl) is an ionic compound formed by sodium and chlorine."
+        },
+        {
+          "q": "Which gas turns moist red litmus paper blue?",
+          "options": [
+            {"t": "Ammonia (NH₃)", "c": true},
+            {"t": "Carbon dioxide (CO₂)", "c": false},
+            {"t": "Chlorine (Cl₂)", "c": false},
+            {"t": "Sulfur dioxide (SO₂)", "c": false}
+          ],
+          "exp": "Ammonia is an alkaline gas that turns red litmus blue."
+        },
+        {
+          "q": "What mass of CaCO₃ is required to produce 4.4 g of CO₂ upon complete thermal decomposition? (Ca=40, C=12, O=16)",
+          "options": [
+            {"t": "10.0 g", "c": true},
+            {"t": "5.0 g", "c": false},
+            {"t": "20.0 g", "c": false},
+            {"t": "44.0 g", "c": false}
+          ],
+          "exp": "CaCO₃ → CaO + CO₂. Molar mass CaCO₃ = 100 g/mol, CO₂ = 44 g/mol. Moles CO₂ = 4.4/44 = 0.1 mol. Mass CaCO₃ = 0.1 × 100 = 10.0 g."
+        },
+        {
+          "q": "What name is given to solutions with a pH value greater than 7 at 25°C?",
+          "options": [
+            {"t": "Alkaline / Basic", "c": true},
+            {"t": "Acidic", "c": false},
+            {"t": "Neutral", "c": false},
+            {"t": "Amphoteric", "c": false}
+          ],
+          "exp": "pH values above 7 indicate alkalinity due to excess hydroxide ions."
+        },
+        {
+          "q": "Which method is best suited for separating an insoluble solid from a liquid mixture?",
+          "options": [
+            {"t": "Filtration", "c": true},
+            {"t": "Distillation", "c": false},
+            {"t": "Chromatography", "c": false},
+            {"t": "Evaporation to dryness", "c": false}
+          ],
+          "exp": "Filtration traps suspended solid particles on filter paper while allowing filtrate to pass."
+        },
+        {
+          "q": "What type of chemical bond is formed by the complete transfer of electrons from a metal to a non-metal?",
+          "options": [
+            {"t": "Ionic bond", "c": true},
+            {"t": "Covalent bond", "c": false},
+            {"t": "Metallic bond", "c": false},
+            {"t": "Hydrogen bond", "c": false}
+          ],
+          "exp": "Ionic bonding relies on electrostatic attraction between oppositely charged ions."
+        },
+        {
+          "q": "What is the atomic number of an element equal to?",
+          "options": [
+            {"t": "The number of protons in its nucleus", "c": true},
+            {"t": "The total number of nucleons", "c": false},
+            {"t": "The number of neutrons", "c": false},
+            {"t": "The valence electron count", "c": false}
+          ],
+          "exp": "Atomic number defines the elemental identity by counting nuclear protons."
+        },
+        {
+          "q": "Which state of matter has a definite volume but no fixed shape, taking the shape of its container?",
+          "options": [
+            {"t": "Liquid", "c": true},
+            {"t": "Solid", "c": false},
+            {"t": "Gas", "c": false},
+            {"t": "Plasma", "c": false}
+          ],
+          "exp": "Liquids have close intermolecular contact allowing flow while maintaining constant volume."
+        },
+        {
+          "q": "What is the pH of a strongly acidic solution such as concentrated hydrochloric acid?",
+          "options": [
+            {"t": "1 or 2", "c": true},
+            {"t": "7", "c": false},
+            {"t": "10", "c": false},
+            {"t": "14", "c": false}
+          ],
+          "exp": "Strong acids have very low pH values near 0 to 2."
+        },
+        {
+          "q": "What process describes the direct conversion of a solid substance into a gas without passing through the liquid state?",
+          "options": [
+            {"t": "Sublimation", "c": true},
+            {"t": "Evaporation", "c": false},
+            {"t": "Condensation", "c": false},
+            {"t": "Melting", "c": false}
+          ],
+          "exp": "Sublimation occurs in substances like iodine and dry ice (solid CO₂)."
+        },
+        {
+          "q": "Isotopes of an element differ from each other in...",
+          "options": [
+            {"t": "The number of neutrons in their nuclei", "c": true},
+            {"t": "Their chemical reactivity", "c": false},
+            {"t": "The number of protons", "c": false},
+            {"t": "Their atomic number", "c": false}
+          ],
+          "exp": "Isotopes share atomic numbers but possess varying neutron counts."
+        },
+        {
+          "q": "Which gas relights a glowing wooden splint?",
+          "options": [
+            {"t": "Oxygen (O₂)", "c": true},
+            {"t": "Hydrogen (H₂)", "c": false},
+            {"t": "Carbon dioxide (CO₂)", "c": false},
+            {"t": "Nitrogen (N₂)", "c": false}
+          ],
+          "exp": "Oxygen supports combustion, causing a glowing splint to burst into flame."
+        },
+        {
+          "q": "What is the chemical name for rust formed on iron surfaces exposed to air and moisture?",
+          "options": [
+            {"t": "Hydrated iron(III) oxide", "c": true},
+            {"t": "Iron(II) sulfide", "c": false},
+            {"t": "Iron carbonate", "c": false},
+            {"t": "Anhydrous iron chloride", "c": false}
+          ],
+          "exp": "Rusting is the oxidation of iron in the presence of oxygen and water."
+        },
+        {
+          "q": "Calculate the molarity of a solution formed by dissolving 5.85 g of NaCl in distilled water to make 250 cm³ of solution. (Na=23, Cl=35.5)",
+          "options": [
+            {"t": "0.4 M", "c": true},
+            {"t": "0.1 M", "c": false},
+            {"t": "0.8 M", "c": false},
+            {"t": "0.2 M", "c": false}
+          ],
+          "exp": "Molar mass NaCl = 58.5 g/mol. Moles = 5.85 / 58.5 = 0.1 mol. Volume = 0.25 L. Molarity = 0.1 / 0.25 = 0.4 M."
+        },
+        {
+          "q": "Which laboratory apparatus is used to accurately measure variable volumes of liquids during titration?",
+          "options": [
+            {"t": "Burette", "c": true},
+            {"t": "Beaker", "c": false},
+            {"t": "Conical flask", "c": false},
+            {"t": "Reagent bottle", "c": false}
+          ],
+          "exp": "A burette dispenses precise measured volumes of liquid reagents."
+        },
+        {
+          "q": "What property of metals allows them to be beaten or hammered into thin sheets?",
+          "options": [
+            {"t": "Malleability", "c": true},
+            {"t": "Ductility", "c": false},
+            {"t": "Lustre", "c": false},
+            {"t": "Brittleness", "c": false}
+          ],
+          "exp": "Malleability is the physical property allowing metals to deform under compressive stress."
+        },
+        {
+          "q": "Which of the following is classified as a chemical change?",
+          "options": [
+            {"t": "Burning wood into ash", "c": true},
+            {"t": "Melting ice cubes", "c": false},
+            {"t": "Dissolving sugar in water", "c": false},
+            {"t": "Boiling liquid water", "c": false}
+          ],
+          "exp": "Combustion creates new chemical substances, making it an irreversible chemical change."
+        },
+        {
+          "q": "What is the chemical formula for sulfuric acid?",
+          "options": [
+            {"t": "H₂SO₄", "c": true},
+            {"t": "HCl", "c": false},
+            {"t": "HNO₃", "c": false},
+            {"t": "H₃PO₄", "c": false}
+          ],
+          "exp": "Sulfuric acid is a strong mineral acid with formula H₂SO₄."
+        },
+        {
+          "q": "Which element is the primary constituent of organic compounds due to its ability to form long chains?",
+          "options": [
+            {"t": "Carbon", "c": true},
+            {"t": "Nitrogen", "c": false},
+            {"t": "Silicon", "c": false},
+            {"t": "Oxygen", "c": false}
+          ],
+          "exp": "Carbon tetravalency enables millions of complex organic structures."
+        },
+        {
+          "q": "What is the general name for a substance that increases the rate of a chemical reaction without being consumed?",
+          "options": [
+            {"t": "Catalyst", "c": true},
+            {"t": "Inhibitor", "c": false},
+            {"t": "Solvent", "c": false},
+            {"t": "Reactant", "c": false}
+          ],
+          "exp": "Catalysts lower activation energy to speed up chemical reactions."
+        },
+        {
+          "q": "Which metal is liquid at room temperature?",
+          "options": [
+            {"t": "Mercury", "c": true},
+            {"t": "Lead", "c": false},
+            {"t": "Aluminum", "c": false},
+            {"t": "Zinc", "c": false}
+          ],
+          "exp": "Mercury is the only common metallic element liquid at standard ambient conditions."
+        },
+        {
+          "q": "What type of oxide reacts with both acids and bases to form salt and water?",
+          "options": [
+            {"t": "Amphoteric oxide", "c": true},
+            {"t": "Acidic oxide", "c": false},
+            {"t": "Basic oxide", "c": false},
+            {"t": "Neutral oxide", "c": false}
+          ],
+          "exp": "Amphoteric oxides (such as aluminum oxide) exhibit dual acid-base properties."
+        },
+        {
+          "q": "In fractional distillation of crude oil, which fraction has the lowest boiling point and distills off first?",
+          "options": [
+            {"t": "Refinery gas (methane/propane)", "c": true},
+            {"t": "Gasoline / Petrol", "c": false},
+            {"t": "Diesel oil", "c": false},
+            {"t": "Bitumen / Asphalt", "c": false}
+          ],
+          "exp": "Smaller hydrocarbon molecules have lower boiling points and rise to the top of the fractionating column."
+        },
+        {
+          "q": "What is the chemical symbol for Potassium?",
+          "options": [
+            {"t": "K", "c": true},
+            {"t": "P", "c": false},
+            {"t": "Po", "c": false},
+            {"t": "Pt", "c": false}
+          ],
+          "exp": "Potassium's symbol K is derived from its neo-Latin name kalium."
+        }
+      ]
+    },
+    {
+      "topicName": "Force, Motion, Energy & Waves",
+      "nodeRange": [61, 90],
       "questions": [
         {
           "q": "Calculate the force required to accelerate a 1200 kg vehicle uniformly at 3 m/s².",
@@ -62,43 +538,243 @@
           "exp": "Using s = ut + ½at²: s = 0 + ½(2)(5²) = 25 m."
         },
         {
-          "q": "What is the effective resistance when two 6Ω resistors are connected in parallel?",
+          "q": "What is the SI unit of pressure?",
           "options": [
-            {"t": "3 Ω", "c": true},
-            {"t": "12 Ω", "c": false},
-            {"t": "6 Ω", "c": false},
-            {"t": "1.5 Ω", "c": false}
+            {"t": "Pascal (Pa)", "c": true},
+            {"t": "Joule (J)", "c": false},
+            {"t": "Newton (N)", "c": false},
+            {"t": "Watt (W)", "c": false}
           ],
-          "exp": "1/R = 1/6 + 1/6 = 2/6 -> R = 6/2 = 3 Ω."
+          "exp": "Pressure is defined as force per unit area, measured in Pascals (N/m²)."
+        },
+        {
+          "q": "Which type of wave requires a material medium for its propagation?",
+          "options": [
+            {"t": "Mechanical wave (e.g., sound wave)", "c": true},
+            {"t": "Electromagnetic wave", "c": false},
+            {"t": "Light wave", "c": false},
+            {"t": "X-rays", "c": false}
+          ],
+          "exp": "Mechanical waves require particles to vibrate and transmit energy, unlike EM waves."
+        },
+        {
+          "q": "What is the principle of conservation of energy?",
+          "options": [
+            {"t": "Energy cannot be created or destroyed, but can be converted from one form to another", "c": true},
+            {"t": "Energy is constantly created in nuclear reactions", "c": false},
+            {"t": "Total mechanical energy in a frictional system remains constant forever", "c": false},
+            {"t": "Potential energy can never convert into kinetic energy", "c": false}
+          ],
+          "exp": "Energy total remains constant in an isolated system."
+        },
+        {
+          "q": "Calculate the kinetic energy of a 2 kg ball moving with a velocity of 4 m/s.",
+          "options": [
+            {"t": "16 J", "c": true},
+            {"t": "8 J", "c": false},
+            {"t": "32 J", "c": false},
+            {"t": "4 J", "c": false}
+          ],
+          "exp": "KE = ½mv² = 0.5 × 2 × (4)² = 16 Joules."
+        },
+        {
+          "q": "What phenomenon causes a pencil partially submerged in a glass of water to appear bent at the water surface?",
+          "options": [
+            {"t": "Refraction", "c": true},
+            {"t": "Reflection", "c": false},
+            {"t": "Diffraction", "c": false},
+            {"t": "Interference", "c": false}
+          ],
+          "exp": "Refraction occurs when light bends as it passes from water into air due to a change in speed."
+        },
+        {
+          "q": "What is the relationship between frequency (f) and wavelength (λ) for a wave traveling at constant speed (v)?",
+          "options": [
+            {"t": "v = f × λ", "c": true},
+            {"t": "v = f / λ", "c": false},
+            {"t": "v = λ / f", "c": false},
+            {"t": "v = f + λ", "c": false}
+          ],
+          "exp": "Wave speed is the product of frequency and wavelength."
+        },
+        {
+          "q": "An object of mass 5 kg is lifted to a height of 10 meters above the ground. Calculate its gravitational potential energy. (g = 10 m/s²)",
+          "options": [
+            {"t": "500 J", "c": true},
+            {"t": "50 J", "c": false},
+            {"t": "150 J", "c": false},
+            {"t": "5000 J", "c": false}
+          ],
+          "exp": "PE = mgh = 5 × 10 × 10 = 500 Joules."
+        },
+        {
+          "q": "What type of lens is thicker at the center than at the edges and converges parallel light rays?",
+          "options": [
+            {"t": "Convex (Converging) lens", "c": true},
+            {"t": "Concave (Diverging) lens", "c": false},
+            {"t": "Plano-concave lens", "c": false},
+            {"t": "Cylindrical lens", "c": false}
+          ],
+          "exp": "Convex lenses converge light to a real focal point."
+        },
+        {
+          "q": "What is friction?",
+          "options": [
+            {"t": "A contact force that opposes the relative motion between two surfaces in contact", "c": true},
+            {"t": "A force that attracts objects toward the center of the Earth", "c": false},
+            {"t": "A magnetic attraction between iron objects", "c": false},
+            {"t": "The force exerted by compressed springs", "c": false}
+          ],
+          "exp": "Friction acts parallel to contacting surfaces, resisting sliding motion."
+        },
+        {
+          "q": "What is the SI unit of power?",
+          "options": [
+            {"t": "Watt (W)", "c": true},
+            {"t": "Joule (J)", "c": false},
+            {"t": "Newton (N)", "c": false},
+            {"t": "Hertz (Hz)", "c": false}
+          ],
+          "exp": "Power is the rate of doing work or transferring energy, measured in Watts (J/s)."
+        },
+        {
+          "q": "Which color of visible light has the shortest wavelength and highest frequency?",
+          "options": [
+            {"t": "Violet", "c": true},
+            {"t": "Red", "c": false},
+            {"t": "Yellow", "c": false},
+            {"t": "Green", "c": false}
+          ],
+          "exp": "In the visible spectrum, red has the longest wavelength and violet the shortest."
+        },
+        {
+          "q": "What term describes the persistence of sound in a confined space after the sound source has stopped?",
+          "options": [
+            {"t": "Reverberation", "c": true},
+            {"t": "Echo", "c": false},
+            {"t": "Refraction", "c": false},
+            {"t": "Diffraction", "c": false}
+          ],
+          "exp": "Reverberation is multiple reflections of sound waves bouncing off room surfaces."
+        },
+        {
+          "q": "What is the mechanical advantage of a simple machine with an efficiency of 100%?",
+          "options": [
+            {"t": "It equals the velocity ratio", "c": true},
+            {"t": "It is always less than 1", "c": false},
+            {"t": "It equals zero", "c": false},
+            {"t": "It is independent of load", "c": false}
+          ],
+          "exp": "In an ideal machine (100% efficiency), mechanical advantage equals velocity ratio."
+        },
+        {
+          "q": "Which law of motion states that for every action, there is an equal and opposite reaction?",
+          "options": [
+            {"t": "Newton's Third Law of Motion", "c": true},
+            {"t": "Newton's First Law of Motion", "c": false},
+            {"t": "Newton's Second Law of Motion", "c": false},
+            {"t": "Law of Universal Gravitation", "c": false}
+          ],
+          "exp": "Forces always occur in equal and opposite pairs acting on interacting bodies."
+        },
+        {
+          "q": "What is thermal conductivity?",
+          "options": [
+            {"t": "The measure of a material's ability to conduct heat energy", "c": true},
+            {"t": "The rate at which a substance evaporates", "c": false},
+            {"t": "The expansion of liquids when heated", "c": false},
+            {"t": "The latent heat of vaporization", "c": false}
+          ],
+          "exp": "Metals have high thermal conductivity, transferring heat quickly via free electrons."
+        },
+        {
+          "q": "What type of mirror is used as a vehicle rearview mirror to provide a wider field of view?",
+          "options": [
+            {"t": "Convex mirror", "c": true},
+            {"t": "Concave mirror", "c": false},
+            {"t": "Plane mirror", "c": false},
+            {"t": "Parabolic mirror", "c": false}
+          ],
+          "exp": "Convex mirrors form diminished upright virtual images, expanding the field of view."
+        },
+        {
+          "q": "What is the term for heat transfer through empty space by electromagnetic infrared waves?",
+          "options": [
+            {"t": "Radiation", "c": true},
+            {"t": "Conduction", "c": false},
+            {"t": "Convection", "c": false},
+            {"t": "Sublimation", "c": false}
+          ],
+          "exp": "Radiation does not require a medium and can travel across a vacuum."
+        },
+        {
+          "q": "Calculate the work done when a force of 50 N moves an object 4 meters in the direction of the force.",
+          "options": [
+            {"t": "200 J", "c": true},
+            {"t": "12.5 J", "c": false},
+            {"t": "54 J", "c": false},
+            {"t": "46 J", "c": false}
+          ],
+          "exp": "Work = Force × distance = 50 N × 4 m = 200 Joules."
+        },
+        {
+          "q": "What is the speed of electromagnetic waves (including light) in a vacuum?",
+          "options": [
+            {"t": "3 × 10⁸ m/s", "c": true},
+            {"t": "3,400 m/s", "c": false},
+            {"t": "330 m/s", "c": false},
+            {"t": "3 × 10⁶ m/s", "c": false}
+          ],
+          "exp": "Light speed in vacuum (c) is approximately 300,000 kilometers per second."
+        },
+        {
+          "q": "What is the center of curvature of a spherical mirror?",
+          "options": [
+            {"t": "The center of the hollow sphere of which the mirror is a part", "c": true},
+            {"t": "The geometric center of the mirror's reflecting surface", "c": false},
+            {"t": "The principal focus where light converges", "c": false},
+            {"t": "The focal length distance from the pole", "c": false}
+          ],
+          "exp": "The center of curvature defines the radius of the sphere forming the mirror."
+        },
+        {
+          "q": "Which simple machine is represented by a staircase or a winding mountain road?",
+          "options": [
+            {"t": "Inclined plane", "c": true},
+            {"t": "Pulley", "c": false},
+            {"t": "Lever", "c": false},
+            {"t": "Wheel and axle", "c": false}
+          ],
+          "exp": "An inclined plane reduces the force needed to raise loads over a vertical height."
+        },
+        {
+          "q": "What is inertia?",
+          "options": [
+            {"t": "The tendency of an object to resist changes in its state of rest or uniform motion", "c": true},
+            {"t": "The gravitational pull acting on mass", "c": false},
+            {"t": "The rotational force of a spinning gyroscope", "c": false},
+            {"t": "The terminal velocity of a falling body", "c": false}
+          ],
+          "exp": "Inertia is directly proportional to an object's mass (Newton's First Law)."
+        },
+        {
+          "q": "What is total internal reflection?",
+          "options": [
+            {"t": "Complete reflection of a light ray back into its denser medium when angle of incidence exceeds critical angle", "c": true},
+            {"t": "Light bouncing off a polished mirror at 90 degrees", "c": false},
+            {"t": "Absorption of light energy by a black surface", "c": false},
+            {"t": "Scattering of light by atmospheric dust particles", "c": false}
+          ],
+          "exp": "Total internal reflection is utilized in fiber optic cables and prisms."
         }
       ]
     },
     {
-      "topicName": "Advanced Chemistry & Electromagnetism",
-      "nodeRange": [81, 120],
+      "topicName": "Electricity, Magnetism, Earth Science & Agriculture",
+      "nodeRange": [91, 120],
       "questions": [
         {
-          "q": "What mass of CaCO₃ is required to produce 4.4 g of CO₂ upon complete thermal decomposition? (Ca=40, C=12, O=16)",
-          "options": [
-            {"t": "10.0 g", "c": true},
-            {"t": "5.0 g", "c": false},
-            {"t": "20.0 g", "c": false},
-            {"t": "44.0 g", "c": false}
-          ],
-          "exp": "CaCO₃ -> CaO + CO₂. Molar mass CaCO₃ = 100 g/mol, CO₂ = 44 g/mol. Moles CO₂ = 4.4/44 = 0.1 mol. Mass CaCO₃ = 0.1 × 100 = 10.0 g."
-        },
-        {
-          "q": "Calculate the molarity of a solution formed by dissolving 5.85 g of NaCl in distilled water to make 250 cm³ of solution. (Na=23, Cl=35.5)",
-          "options": [
-            {"t": "0.4 M", "c": true},
-            {"t": "0.1 M", "c": false},
-            {"t": "0.8 M", "c": false},
-            {"t": "0.2 M", "c": false}
-          ],
-          "exp": "Molar mass NaCl = 58.5 g/mol. Moles = 5.85 / 58.5 = 0.1 mol. Volume = 0.25 L. Molarity = 0.1 / 0.25 = 0.4 M."
-        },
-        {
-          "q": "A 12V battery with internal resistance 1Ω is connected across two parallel resistors of 6Ω and 3Ω. Calculate the current supplied.",
+          "q": "A 12V battery with internal resistance 1Ω is connected across two parallel resistors of 6Ω and 3Ω. Calculate the total current supplied.",
           "options": [
             {"t": "4.0 A", "c": true},
             {"t": "3.0 A", "c": false},
@@ -106,6 +782,246 @@
             {"t": "2.4 A", "c": false}
           ],
           "exp": "Parallel resistance R_p = (6×3)/(6+3) = 2Ω. Total circuit resistance = 2 + 1 = 3Ω. Current I = 12 / 3 = 4.0 A."
+        },
+        {
+          "q": "What is the effective resistance when two 6Ω resistors are connected in parallel?",
+          "options": [
+            {"t": "3 Ω", "c": true},
+            {"t": "12 Ω", "c": false},
+            {"t": "6 Ω", "c": false},
+            {"t": "1.5 Ω", "c": false}
+          ],
+          "exp": "1/R = 1/6 + 1/6 = 2/6 → R = 6/2 = 3 Ω."
+        },
+        {
+          "q": "Which soil type has the highest water retention capacity and smallest particle size?",
+          "options": [
+            {"t": "Clay soil", "c": true},
+            {"t": "Sandy soil", "c": false},
+            {"t": "Loam soil", "c": false},
+            {"t": "Silt soil", "c": false}
+          ],
+          "exp": "Clay particles have microscopic pore spaces holding water tightly by capillary action."
+        },
+        {
+          "q": "What is Ohm's Law formula relating voltage (V), current (I), and resistance (R)?",
+          "options": [
+            {"t": "V = I × R", "c": true},
+            {"t": "I = V × R", "c": false},
+            {"t": "R = V × I", "c": false},
+            {"t": "V = I / R", "c": false}
+          ],
+          "exp": "Ohm's law states that potential difference is proportional to current through an ohmic conductor."
+        },
+        {
+          "q": "Which agricultural practice involves growing different crops on the same plot of land in a sequential seasonal cycle?",
+          "options": [
+            {"t": "Crop rotation", "c": true},
+            {"t": "Monoculture", "c": false},
+            {"t": "Mixed farming", "c": false},
+            {"t": "Shifting cultivation", "c": false}
+          ],
+          "exp": "Crop rotation prevents soil nutrient depletion and breaks pest/disease cycles."
+        },
+        {
+          "q": "What is the primary function of a fuse in an electrical household circuit?",
+          "options": [
+            {"t": "To melt and break the circuit when excessive current flows, preventing fires", "c": true},
+            {"t": "To step up voltage from the main supply", "c": false},
+            {"t": "To store electrical charge for emergency lighting", "c": false},
+            {"t": "To measure total electrical energy consumed", "c": false}
+          ],
+          "exp": "Fuses contain a thin metal wire that melts upon overloading."
+        },
+        {
+          "q": "What geological layer forms the outermost solid shell of the Earth?",
+          "options": [
+            {"t": "The Crust", "c": true},
+            {"t": "The Mantle", "c": false},
+            {"t": "The Outer core", "c": false},
+            {"t": "The Inner core", "c": false}
+          ],
+          "exp": "The Earth's crust is the rocky outer shell supporting continents and oceans."
+        },
+        {
+          "q": "Which livestock management practice involves the removal of horns in young calves?",
+          "options": [
+            {"t": "Dehorning / Disbudding", "c": true},
+            {"t": "Castration", "c": false},
+            {"t": "Docking", "c": false},
+            {"t": "Weaning", "c": false}
+          ],
+          "exp": "Dehorning prevents injuries to farm handlers and other livestock."
+        },
+        {
+          "q": "What is the magnetic field pattern inside a long, current-carrying straight solenoid?",
+          "options": [
+            {"t": "Uniform and parallel magnetic field lines", "c": true},
+            {"t": "Concentric circles around each turn with zero field inside", "c": false},
+            {"t": "Random radial lines pointing outwards", "c": false},
+            {"t": "Zero magnetic field strength", "c": false}
+          ],
+          "exp": "Inside a solenoid, magnetic field lines are parallel and evenly spaced, acting like a bar magnet."
+        },
+        {
+          "q": "What is the process of converting atmospheric nitrogen gas into nitrates by soil bacteria called?",
+          "options": [
+            {"t": "Nitrogen fixation", "c": true},
+            {"t": "Denitrification", "c": false},
+            {"t": "Ammonification", "c": false},
+            {"t": "Leaching", "c": false}
+          ],
+          "exp": "Rhizobium and free-living bacteria fix atmospheric nitrogen into usable nitrates."
+        },
+        {
+          "q": "Calculate the electrical power consumed by a 240V appliance drawing a current of 5 Amperes.",
+          "options": [
+            {"t": "1200 W", "c": true},
+            {"t": "48 W", "c": false},
+            {"t": "245 W", "c": false},
+            {"t": "120 W", "c": false}
+          ],
+          "exp": "Power P = V × I = 240V × 5A = 1200 Watts."
+        },
+        {
+          "q": "Which rock type is formed from the cooling and solidification of molten magma or lava?",
+          "options": [
+            {"t": "Igneous rock", "c": true},
+            {"t": "Sedimentary rock", "c": false},
+            {"t": "Metamorphic rock", "c": false},
+            {"t": "Limestone", "c": false}
+          ],
+          "exp": "Igneous rocks (e.g., basalt, granite) crystallize from molten mineral melts."
+        },
+        {
+          "q": "What is the purpose of adding lime (calcium hydroxide) to agricultural acidic soils?",
+          "options": [
+            {"t": "To neutralize soil acidity and improve soil structure", "c": true},
+            {"t": "To increase soil acidity and kill earthworms", "c": false},
+            {"t": "To make soil sandy and dry", "c": false},
+            {"t": "To eliminate all soil microorganisms", "c": false}
+          ],
+          "exp": "Agricultural lime raises soil pH to optimal levels for crop nutrient uptake."
+        },
+        {
+          "q": "What device is used to transform alternating voltage up or down using electromagnetic induction?",
+          "options": [
+            {"t": "Transformer", "c": true},
+            {"t": "Rheostat", "c": false},
+            {"t": "Galvanometer", "c": false},
+            {"t": "Capacitor", "c": false}
+          ],
+          "exp": "Transformers operate on AC electromagnetic mutual induction across primary and secondary coils."
+        },
+        {
+          "q": "What weather instrument is used to measure atmospheric pressure?",
+          "options": [
+            {"t": "Barometer", "c": true},
+            {"t": "Hygrometer", "c": false},
+            {"t": "Anemometer", "c": false},
+            {"t": "Rain gauge", "c": false}
+          ],
+          "exp": "Barometers measure atmospheric pressure to forecast weather changes."
+        },
+        {
+          "q": "Which livestock disease affects ruminants and is caused by bacteria, characterized by high fever and sudden death?",
+          "options": [
+            {"t": "Anthrax", "c": true},
+            {"t": "Foot and mouth disease", "c": false},
+            {"t": "Newcastle disease", "c": false},
+            {"t": "Coccidiosis", "c": false}
+          ],
+          "exp": "Anthrax is a fatal zoonotic bacterial disease affecting cattle and sheep."
+        },
+        {
+          "q": "What is electrical earthing in domestic wiring?",
+          "options": [
+            {"t": "Connecting the metal casing of appliances to the earth via a low-resistance wire for safety", "c": true},
+            {"t": "Burying electrical batteries underground to recharge them", "c": false},
+            {"t": "Running power cables through garden soil", "c": false},
+            {"t": "Insulating wires with rubber tape", "c": false}
+          ],
+          "exp": "Earthing protects users from electric shock if live wires touch metal appliance bodies."
+        },
+        {
+          "q": "Which layer of the atmosphere contains the ozone layer that absorbs harmful ultraviolet solar radiation?",
+          "options": [
+            {"t": "Stratosphere", "c": true},
+            {"t": "Troposphere", "c": false},
+            {"t": "Mesosphere", "c": false},
+            {"t": "Thermosphere", "c": false}
+          ],
+          "exp": "The stratosphere houses concentrated ozone shielding life on Earth."
+        },
+        {
+          "q": "What is mixed farming?",
+          "options": [
+            {"t": "The integration of crop production and livestock rearing on the same farm", "c": true},
+            {"t": "Growing two different crop species in separate fields", "c": false},
+            {"t": "Rearing multiple breeds of poultry only", "c": false},
+            {"t": "Farming using both manual labor and tractors", "c": false}
+          ],
+          "exp": "Mixed farming provides mutual benefits, such as using animal manure for crops."
+        },
+        {
+          "q": "What is electromagnetic induction?",
+          "options": [
+            {"t": "The production of an electromotive force (voltage) across a conductor in a changing magnetic field", "c": true},
+            {"t": "The attraction of iron filings to a permanent bar magnet", "c": false},
+            {"t": "The heating effect of electric current flowing through resistors", "c": false},
+            {"t": "The accumulation of static electricity on plastic rulers", "c": false}
+          ],
+          "exp": "Faraday's law of induction underpins generators and transformers."
+        },
+        {
+          "q": "Which soil conservation practice involves planting crops across sloping land contours to prevent soil erosion?",
+          "options": [
+            {"t": "Contour ploughing", "c": true},
+            {"t": "Clean clearing", "c": false},
+            {"t": "Overgrazing", "c": false},
+            {"t": "Deforestation", "c": false}
+          ],
+          "exp": "Contour farming creates water-trapping ridges along elevation lines."
+        },
+        {
+          "q": "What is the unit of electrical charge?",
+          "options": [
+            {"t": "Coulomb (C)", "c": true},
+            {"t": "Ampere (A)", "c": false},
+            {"t": "Volt (V)", "c": false},
+            {"t": "Ohm (Ω)", "c": false}
+          ],
+          "exp": "The coulomb is the SI unit of electric charge."
+        },
+        {
+          "q": "What causes ocean tides on Earth?",
+          "options": [
+            {"t": "Gravitational pull exerted by the Moon and the Sun on Earth's oceans", "c": true},
+            {"t": "Underwater volcanic eruptions and tectonic plate movements", "c": false},
+            {"t": "Global wind patterns and atmospheric pressure", "c": false},
+            {"t": "Earth's magnetic field fluctuations", "c": false}
+          ],
+          "exp": "Lunar and solar gravitational tidal forces create rhythmic sea level rises."
+        },
+        {
+          "q": "What is the primary objective of animal quarantine when importing livestock?",
+          "options": [
+            {"t": "To isolate animals and prevent the introduction of contagious infectious diseases", "c": true},
+            {"t": "To fatten animals for commercial meat sales", "c": false},
+            {"t": "To train animals for agricultural labor", "c": false},
+            {"t": "To acclimatize animals to local weather instantly", "c": false}
+          ],
+          "exp": "Quarantine safeguards national biosecurity and animal health."
+        },
+        {
+          "q": "What energy transformation takes place in a working electric motor?",
+          "options": [
+            {"t": "Electrical energy to mechanical kinetic energy", "c": true},
+            {"t": "Mechanical energy to electrical energy", "c": false},
+            {"t": "Chemical energy to light energy", "c": false},
+            {"t": "Thermal energy to sound energy", "c": false}
+          ],
+          "exp": "Electric motors use magnetic force on current-carrying conductors to spin rotors."
         }
       ]
     }

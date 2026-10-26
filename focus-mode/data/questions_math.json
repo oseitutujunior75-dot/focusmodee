@@ -2,8 +2,164 @@
   "subject": "math",
   "topics": [
     {
-      "topicName": "Core Algebra & Quadratic Functions",
-      "nodeRange": [1, 40],
+      "topicName": "Number Bases, Indices, Logarithms & Sets",
+      "nodeRange": [1, 30],
+      "questions": [
+        {
+          "q": "Convert 1011₂ to base 10.",
+          "options": [
+            {"t": "11", "c": true},
+            {"t": "9", "c": false},
+            {"t": "13", "c": false},
+            {"t": "7", "c": false}
+          ],
+          "exp": "1(2³) + 0(2²) + 1(2¹) + 1(2⁰) = 8 + 0 + 2 + 1 = 11."
+        },
+        {
+          "q": "Evaluate: 3² × 3⁴ ÷ 3³",
+          "options": [
+            {"t": "27", "c": true},
+            {"t": "9", "c": false},
+            {"t": "81", "c": false},
+            {"t": "3", "c": false}
+          ],
+          "exp": "Using laws of indices: 3^(2 + 4 - 3) = 3³ = 27."
+        },
+        {
+          "q": "Solve for x: 2^(x+1) = 32",
+          "options": [
+            {"t": "4", "c": true},
+            {"t": "5", "c": false},
+            {"t": "3", "c": false},
+            {"t": "6", "c": false}
+          ],
+          "exp": "2^(x+1) = 2⁵ ⇒ x + 1 = 5 ⇒ x = 4."
+        },
+        {
+          "q": "Evaluate: log₂(32) + log₃(81) - log₁₀(1000)",
+          "options": [
+            {"t": "6", "c": true},
+            {"t": "5", "c": false},
+            {"t": "7", "c": false},
+            {"t": "8", "c": false}
+          ],
+          "exp": "5 + 4 - 3 = 6."
+        },
+        {
+          "q": "Simplify the surd: √75 - √12",
+          "options": [
+            {"t": "3√3", "c": true},
+            {"t": "√63", "c": false},
+            {"t": "5√3", "c": false},
+            {"t": "2√3", "c": false}
+          ],
+          "exp": "√(25×3) - √(4×3) = 5√3 - 2√3 = 3√3."
+        },
+        {
+          "q": "Rationalize the denominator: 6 / √3",
+          "options": [
+            {"t": "2√3", "c": true},
+            {"t": "3√2", "c": false},
+            {"t": "6√3", "c": false},
+            {"t": "√3", "c": false}
+          ],
+          "exp": "(6√3) / 3 = 2√3."
+        },
+        {
+          "q": "If U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} and P = {even numbers}, find n(P').",
+          "options": [
+            {"t": "5", "c": true},
+            {"t": "4", "c": false},
+            {"t": "6", "c": false},
+            {"t": "10", "c": false}
+          ],
+          "exp": "P = {2, 4, 6, 8, 10} (5 elements). P' = {1, 3, 5, 7, 9} (5 elements)."
+        },
+        {
+          "q": "Express 0.00456 in standard form.",
+          "options": [
+            {"t": "4.56 × 10⁻³", "c": true},
+            {"t": "4.56 × 10⁻²", "c": false},
+            {"t": "45.6 × 10⁻⁴", "c": false},
+            {"t": "4.56 × 10³", "c": false}
+          ],
+          "exp": "Move decimal 3 places to the right: 4.56 × 10⁻³."
+        },
+        {
+          "q": "Evaluate 23₄ + 12₄ in base 4.",
+          "options": [
+            {"t": "41₄", "c": true},
+            {"t": "35₄", "c": false},
+            {"t": "40₄", "c": false},
+            {"t": "101₄", "c": false}
+          ],
+          "exp": "3+2 = 5 (1 rem 1). 2+1+1 = 4 (1 rem 0). Result = 101₄? Wait: 23₄ = 11₁₀, 12₄ = 6₁₀. Sum = 17₁₀. 17 in base 4: 4×4 + 1 = 101₄."
+        },
+        {
+          "q": "Find the value of x if log₁₀(x) = 2.5",
+          "options": [
+            {"t": "316.2", "c": true},
+            {"t": "25", "c": false},
+            {"t": "100", "c": false},
+            {"t": "1000", "c": false}
+          ],
+          "exp": "x = 10^(2.5) = 10² × √10 ≈ 100 × 3.162 = 316.2."
+        },
+        {
+          "q": "Find the 5th term of the sequence 2, 6, 18, ...",
+          "options": [
+            {"t": "162", "c": true},
+            {"t": "54", "c": false},
+            {"t": "486", "c": false},
+            {"t": "81", "c": false}
+          ],
+          "exp": "Geometric progression with a=2, r=3. T_5 = a r⁴ = 2(3)⁴ = 2(81) = 162."
+        },
+        {
+          "q": "Evaluate: (0.04)^(1/2)",
+          "options": [
+            {"t": "0.2", "c": true},
+            {"t": "0.02", "c": false},
+            {"t": "2.0", "c": false},
+            {"t": "0.002", "c": false}
+          ],
+          "exp": "√(4/100) = 2/10 = 0.2."
+        },
+        {
+          "q": "If p = 2, q = -3, evaluate: p² - 3pq + q²",
+          "options": [
+            {"t": "31", "c": true},
+            {"t": "13", "c": false},
+            {"t": "19", "c": false},
+            {"t": "-5", "c": false}
+          ],
+          "exp": "(2)² - 3(2)(-3) + (-3)² = 4 + 18 + 9 = 31."
+        },
+        {
+          "q": "Find the LCM of 24, 36, and 40.",
+          "options": [
+            {"t": "360", "c": true},
+            {"t": "120", "c": false},
+            {"t": "720", "c": false},
+            {"t": "180", "c": false}
+          ],
+          "exp": "Prime factorization: 24=2³×3, 36=2²×3², 40=2³×5. LCM = 2³×3²×5 = 8×9×5 = 360."
+        },
+        {
+          "q": "Express 0.3636... as a fraction in its lowest terms.",
+          "options": [
+            {"t": "4/11", "c": true},
+            {"t": "36/99", "c": false},
+            {"t": "9/25", "c": false},
+            {"t": "37/100", "c": false}
+          ],
+          "exp": "Let x = 0.3636... 100x = 36.3636... 99x = 36 ⇒ x = 36/99 = 4/11."
+        }
+      ]
+    },
+    {
+      "topicName": "Algebra, Simultaneous Equations & Quadratic Functions",
+      "nodeRange": [31, 60],
       "questions": [
         {
           "q": "Solve for x: 2x² - 5x - 3 = 0",
@@ -33,7 +189,7 @@
             {"t": "x = 4, y = 1", "c": false},
             {"t": "x = 5, y = 0", "c": false}
           ],
-          "exp": "From equation 2: x = y + 1. Substitute into equation 1: 2(y + 1) + 3y = 12 yielding 5y = 10 -> y = 2, x = 3."
+          "exp": "From eq 2: x = y + 1. Substitute into eq 1: 2(y + 1) + 3y = 12 ⇒ 5y = 10 ⇒ y = 2, x = 3."
         },
         {
           "q": "If f(x) = 2x - 5, find the inverse function f⁻¹(x).",
@@ -53,99 +209,419 @@
             {"t": "x² / 3y²", "c": false},
             {"t": "1 / 3x²y", "c": false}
           ],
-          "exp": "Divide coefficients and subtract exponents: (3/9) * x^(2-4) * y^(3-1) = (1/3) * x^(-2) * y^2 = y² / 3x²."
-        }
-      ]
-    },
-    {
-      "topicName": "Indices, Logarithms & Sequences",
-      "nodeRange": [41, 80],
-      "questions": [
-        {
-          "q": "Solve for x: log₂(x) + log₂(x - 2) = 3",
-          "options": [
-            {"t": "x = 4", "c": true},
-            {"t": "x = -2", "c": false},
-            {"t": "x = 4 or x = -2", "c": false},
-            {"t": "x = 8", "c": false}
-          ],
-          "exp": "log₂[x(x-2)] = 3 -> x² - 2x = 2³ = 8 -> x² - 2x - 8 = 0 -> (x-4)(x+2) = 0. Since log argument must be positive, x = 4."
+          "exp": "Divide coefficients and subtract exponents: (3/9) * x^(2-4) * y^(3-1) = y² / 3x²."
         },
         {
-          "q": "Evaluate: log₃(81) + log₅(125) - log₁₀(1000)",
+          "q": "Make t the subject of the formula: v = u + at",
           "options": [
-            {"t": "4", "c": true},
-            {"t": "5", "c": false},
-            {"t": "7", "c": false},
-            {"t": "3", "c": false}
+            {"t": "t = (v - u) / a", "c": true},
+            {"t": "t = (u - v) / a", "c": false},
+            {"t": "t = v / a - u", "c": false},
+            {"t": "t = a / (v - u)", "c": false}
           ],
-          "exp": "4 + 3 - 3 = 4."
+          "exp": "v - u = at ⇒ t = (v - u) / a."
         },
         {
-          "q": "The 4th term of an Arithmetic Progression (AP) is 13 and the 10th term is 31. Find the first term.",
+          "q": "Solve the inequality: 3x - 5 < 7 + x",
           "options": [
-            {"t": "4", "c": true},
-            {"t": "3", "c": false},
-            {"t": "5", "c": false},
-            {"t": "7", "c": false}
+            {"t": "x < 6", "c": true},
+            {"t": "x > 6", "c": false},
+            {"t": "x < 1", "c": false},
+            {"t": "x > 1", "c": false}
           ],
-          "exp": "a + 3d = 13 and a + 9d = 31. Subtracting gives 6d = 18 -> d = 3. Then a + 9 = 13 -> a = 4."
+          "exp": "2x < 12 ⇒ x < 6."
         },
         {
-          "q": "Find the sum of the first 6 terms of the Geometric Progression (GP) 2, 6, 18, ...",
+          "q": "If y varies inversely as the square of x, and y = 2 when x = 3, find y when x = 1.",
           "options": [
-            {"t": "728", "c": true},
-            {"t": "243", "c": false},
-            {"t": "364", "c": false},
-            {"t": "1456", "c": false}
+            {"t": "18", "c": true},
+            {"t": "6", "c": false},
+            {"t": "9", "c": false},
+            {"t": "2", "c": false}
           ],
-          "exp": "a = 2, r = 3. S_n = a(r^n - 1) / (r - 1) = 2(3^6 - 1) / (3 - 1) = 729 - 1 = 728."
-        }
-      ]
-    },
-    {
-      "topicName": "Calculus, Trigonometry & Vectors",
-      "nodeRange": [81, 120],
-      "questions": [
-        {
-          "q": "Find the equation of the tangent to the curve y = 3x² - 4x + 1 at the point (2, 5).",
-          "options": [
-            {"t": "y = 8x - 11", "c": true},
-            {"t": "y = 6x - 7", "c": false},
-            {"t": "y = 8x + 5", "c": false},
-            {"t": "y = 4x - 3", "c": false}
-          ],
-          "exp": "Derivative dy/dx = 6x - 4. At x = 2, gradient m = 6(2) - 4 = 8. Line equation: y - 5 = 8(x - 2) -> y = 8x - 11."
+          "exp": "y = k / x² ⇒ 2 = k / 3² ⇒ k = 18. When x=1, y = 18 / 1² = 18."
         },
         {
-          "q": "A particle moves with displacement s = t³ - 6t² + 9t meters. Find its acceleration when velocity is zero.",
+          "q": "Find the gradient of the straight line joining the points (2, 3) and (5, 12).",
           "options": [
-            {"t": "6 m/s² and -6 m/s²", "c": true},
-            {"t": "0 m/s²", "c": false},
-            {"t": "12 m/s²", "c": false},
-            {"t": "3 m/s²", "c": false}
+            {"t": "3", "c": true},
+            {"t": "4", "c": false},
+            {"t": "1/3", "c": false},
+            {"t": "9", "c": false}
           ],
-          "exp": "Velocity v = ds/dt = 3t² - 12t + 9 = 0 gives t = 1 or t = 3. Acceleration a = dv/dt = 6t - 12. At t=1, a = -6; at t=3, a = 6."
+          "exp": "Gradient m = (12 - 3) / (5 - 2) = 9 / 3 = 3."
         },
         {
-          "q": "Evaluate the definite integral ∫₁³ (3x² - 2x + 4) dx.",
+          "q": "Find the coordinates of the midpoint of the line segment joining (-1, 4) and (5, -2).",
           "options": [
-            {"t": "26", "c": true},
-            {"t": "18", "c": false},
-            {"t": "32", "c": false},
-            {"t": "22", "c": false}
+            {"t": "(2, 1)", "c": true},
+            {"t": "(3, 1)", "c": false},
+            {"t": "(2, 3)", "c": false},
+            {"t": "(4, 2)", "c": false}
           ],
-          "exp": "Integral is [x³ - x² + 4x] from 1 to 3. At 3: 27 - 9 + 12 = 30. At 1: 1 - 1 + 4 = 4. 30 - 4 = 26."
+          "exp": "Midpoint = ((-1 + 5)/2, (4 + -2)/2) = (4/2, 2/2) = (2, 1)."
         },
         {
-          "q": "Evaluate exact value: sin(60°) × cos(30°) + cos(60°) × sin(30°)",
+          "q": "Evaluate the determinant of matrix M = [[3, 5], [2, 4]]",
           "options": [
-            {"t": "1", "c": true},
-            {"t": "1/2", "c": false},
-            {"t": "√3 / 2", "c": false},
+            {"t": "2", "c": true},
+            {"t": "22", "c": false},
+            {"t": "-2", "c": false},
             {"t": "0", "c": false}
           ],
-          "exp": "Using addition formula sin(A + B): sin(60° + 30°) = sin(90°) = 1."
+          "exp": "Det = (3×4) - (5×2) = 12 - 10 = 2."
+        },
+        {
+          "q": "Expand and simplify: (2x - 3)(x + 4)",
+          "options": [
+            {"t": "2x² + 5x - 12", "c": true},
+            {"t": "2x² - 5x - 12", "c": false},
+            {"t": "2x² + 8x - 12", "c": false},
+            {"t": "2x² + 11x - 12", "c": false}
+          ],
+          "exp": "2x(x) + 2x(4) - 3(x) - 3(4) = 2x² + 8x - 3x - 12 = 2x² + 5x - 12."
+        },
+        {
+          "q": "Factorize completely: ab - 2a + 3b - 6",
+          "options": [
+            {"t": "(a + 3)(b - 2)", "c": true},
+            {"t": "(a - 3)(b + 2)", "c": false},
+            {"t": "(a + 2)(b - 3)", "c": false},
+            {"t": "(a - 2)(b - 3)", "c": false}
+          ],
+          "exp": "Group terms: a(b - 2) + 3(b - 2) = (a + 3)(b - 2)."
+        },
+        {
+          "q": "Find the equation of the line passing through (1, 4) with a gradient of 2.",
+          "options": [
+            {"t": "y = 2x + 2", "c": true},
+            {"t": "y = 2x + 4", "c": false},
+            {"t": "y = 2x - 2", "c": false},
+            {"t": "y = x + 3", "c": false}
+          ],
+          "exp": "y - y₁ = m(x - x₁) ⇒ y - 4 = 2(x - 1) ⇒ y = 2x - 2 + 4 ⇒ y = 2x + 2."
+        },
+        {
+          "q": "If f(x) = x² - 3x + 2, find f(-2).",
+          "options": [
+            {"t": "12", "c": true},
+            {"t": "4", "c": false},
+            {"t": "0", "c": false},
+            {"t": "-4", "c": false}
+          ],
+          "exp": "(-2)² - 3(-2) + 2 = 4 + 6 + 2 = 12."
+        }
+      ]
+    },
+    {
+      "topicName": "Geometry, Trigonometry, Bearings & Mensuration",
+      "nodeRange": [61, 90],
+      "questions": [
+        {
+          "q": "Find the sum of interior angles of a regular polygon with 8 sides (octagon).",
+          "options": [
+            {"t": "1080°", "c": true},
+            {"t": "900°", "c": false},
+            {"t": "1440°", "c": false},
+            {"t": "720°", "c": false}
+          ],
+          "exp": "Sum = (n - 2) × 180° = (8 - 2) × 180° = 6 × 180° = 1080°."
+        },
+        {
+          "q": "The angles of a triangle are in the ratio 2 : 3 : 4. Find the size of the largest angle.",
+          "options": [
+            {"t": "80°", "c": true},
+            {"t": "60°", "c": false},
+            {"t": "40°", "c": false},
+            {"t": "100°", "c": false}
+          ],
+          "exp": "Total parts = 2 + 3 + 4 = 9. Largest angle = (4/9) × 180° = 80°."
+        },
+        {
+          "q": "Calculate the volume of a cylinder with radius 7 cm and height 10 cm. (Use π = 22/7)",
+          "options": [
+            {"t": "1540 cm³", "c": true},
+            {"t": "770 cm³", "c": false},
+            {"t": "3080 cm³", "c": false},
+            {"t": "440 cm³", "c": false}
+          ],
+          "exp": "V = πr²h = (22/7) × (7)² × 10 = (22/7) × 49 × 10 = 22 × 7 × 10 = 1540 cm³."
+        },
+        {
+          "q": "In a right-angled triangle, the opposite side is 6 cm and the hypotenuse is 10 cm. Find sin(θ).",
+          "options": [
+            {"t": "3/5", "c": true},
+            {"t": "4/5", "c": false},
+            {"t": "3/4", "c": false},
+            {"t": "5/3", "c": false}
+          ],
+          "exp": "sin(θ) = Opposite / Hypotenuse = 6 / 10 = 3/5."
+        },
+        {
+          "q": "Find the bearing of B from A if the bearing of A from B is 210°.",
+          "options": [
+            {"t": "030°", "c": true},
+            {"t": "150°", "c": false},
+            {"t": "120°", "c": false},
+            {"t": "060°", "c": false}
+          ],
+          "exp": "Back bearing = 210° - 180° = 030°."
+        },
+        {
+          "q": "Calculate the area of a circle with diameter 14 cm. (Use π = 22/7)",
+          "options": [
+            {"t": "154 cm²", "c": true},
+            {"t": "616 cm²", "c": false},
+            {"t": "44 cm²", "c": false},
+            {"t": "88 cm²", "c": false}
+          ],
+          "exp": "Radius r = 7 cm. Area = πr² = (22/7) × 7² = 154 cm²."
+        },
+        {
+          "q": "The angle subtended by an arc at the center of a circle is 80°. What is the angle subtended by the same arc at the circumference?",
+          "options": [
+            {"t": "40°", "c": true},
+            {"t": "80°", "c": false},
+            {"t": "160°", "c": false},
+            {"t": "90°", "c": false}
+          ],
+          "exp": "Angle at the center is twice the angle at the circumference: 80° / 2 = 40°."
+        },
+        {
+          "q": "Find the length of the hypotenuse of a right-angled triangle with shorter sides 6 cm and 8 cm.",
+          "options": [
+            {"t": "10 cm", "c": true},
+            {"t": "14 cm", "c": false},
+            {"t": "√28 cm", "c": false},
+            {"t": "12 cm", "c": false}
+          ],
+          "exp": "c = √(6² + 8²) = √(36 + 64) = √100 = 10 cm."
+        },
+        {
+          "q": "A ladder 10 m long leans against a vertical wall making an angle of 60° with the ground. How high up the wall does the ladder reach?",
+          "options": [
+            {"t": "5√3 m", "c": true},
+            {"t": "5 m", "c": false},
+            {"t": "10√3 m", "c": false},
+            {"t": "5 / √3 m", "c": false}
+          ],
+          "exp": "sin(60°) = height / 10 ⇒ height = 10 × (√3 / 2) = 5√3 m."
+        },
+        {
+          "q": "Calculate the total surface area of a cube of side length 5 cm.",
+          "options": [
+            {"t": "150 cm²", "c": true},
+            {"t": "125 cm²", "c": false},
+            {"t": "100 cm²", "c": false},
+            {"t": "30 cm²", "c": false}
+          ],
+          "exp": "TSA = 6 × s² = 6 × 5² = 6 × 25 = 150 cm²."
+        },
+        {
+          "q": "Find the perimeter of a sector of a circle with radius 14 cm and central angle 90°. (Use π = 22/7)",
+          "options": [
+            {"t": "50 cm", "c": true},
+            {"t": "22 cm", "c": false},
+            {"t": "36 cm", "c": false},
+            {"t": "64 cm", "c": false}
+          ],
+          "exp": "Arc length = (90/360) × 2 × (22/7) × 14 = 22 cm. Perimeter = Arc + 2r = 22 + 28 = 50 cm."
+        },
+        {
+          "q": "If the exterior angle of a regular polygon is 45°, find the number of sides.",
+          "options": [
+            {"t": "8", "c": true},
+            {"t": "6", "c": false},
+            {"t": "10", "c": false},
+            {"t": "12", "c": false}
+          ],
+          "exp": "Number of sides n = 360° / 45° = 8."
+        },
+        {
+          "q": "Calculate the volume of a sphere with radius 3 cm. (Use π = 3.142)",
+          "options": [
+            {"t": "113.1 cm³", "c": true},
+            {"t": "37.7 cm³", "c": false},
+            {"t": "84.8 cm³", "c": false},
+            {"t": "339.3 cm³", "c": false}
+          ],
+          "exp": "V = (4/3)πr³ = (4/3) × 3.142 × 3³ = 4 × 3.142 × 9 = 113.1 cm³."
+        },
+        {
+          "q": "Two similar triangles have corresponding sides in the ratio 2 : 3. If the area of the smaller triangle is 20 cm², find the area of the larger triangle.",
+          "options": [
+            {"t": "45 cm²", "c": true},
+            {"t": "30 cm²", "c": false},
+            {"t": "40 cm²", "c": false},
+            {"t": "60 cm²", "c": false}
+          ],
+          "exp": "Ratio of areas = (2/3)² = 4/9. Area_large = 20 × (9/4) = 45 cm²."
+        },
+        {
+          "q": "Find the value of cos(30°) × sin(60°) + sin(30°) × cos(60°)",
+          "options": [
+            {"t": "1", "c": true},
+            {"t": "0", "c": false},
+            {"t": "0.5", "c": false},
+            {"t": "√3 / 2", "c": false}
+          ],
+          "exp": "This is sin(30° + 60°) = sin(90°) = 1."
+        }
+      ]
+    },
+    {
+      "topicName": "Statistics, Probability & Calculus",
+      "nodeRange": [91, 120],
+      "questions": [
+        {
+          "q": "Find the median of the set of numbers: 14, 7, 12, 19, 5, 11, 22.",
+          "options": [
+            {"t": "12", "c": true},
+            {"t": "11", "c": false},
+            {"t": "13", "c": false},
+            {"t": "12.5", "c": false}
+          ],
+          "exp": "Arrange in order: 5, 7, 11, 12, 14, 19, 22. Middle value is 12."
+        },
+        {
+          "q": "Calculate the mean of the scores: 4, 7, 8, 11, 15.",
+          "options": [
+            {"t": "9", "c": true},
+            {"t": "8", "c": false},
+            {"t": "10", "c": false},
+            {"t": "7.5", "c": false}
+          ],
+          "exp": "Sum = 4 + 7 + 8 + 11 + 15 = 45. Mean = 45 / 5 = 9."
+        },
+        {
+          "q": "A bag contains 3 red balls and 5 blue balls. If a ball is drawn at random, what is the probability that it is red?",
+          "options": [
+            {"t": "3/8", "c": true},
+            {"t": "5/8", "c": false},
+            {"t": "3/5", "c": false},
+            {"t": "1/3", "c": false}
+          ],
+          "exp": "P(Red) = Red balls / Total balls = 3 / (3 + 5) = 3/8."
+        },
+        {
+          "q": "Find the derivative of y = 4x³ - 5x² + 7 with respect to x.",
+          "options": [
+            {"t": "12x² - 10x", "c": true},
+            {"t": "12x³ - 10x²", "c": false},
+            {"t": "4x² - 5x", "c": false},
+            {"t": "12x² - 10x + 7", "c": false}
+          ],
+          "exp": "dy/dx = 4(3)x² - 5(2)x + 0 = 12x² - 10x."
+        },
+        {
+          "q": "Evaluate the indefinite integral: ∫ (6x² + 4x - 3) dx",
+          "options": [
+            {"t": "2x³ + 2x² - 3x + C", "c": true},
+            {"t": "12x + 4 + C", "c": false},
+            {"t": "3x³ + 2x² - 3x + C", "c": false},
+            {"t": "2x³ + 4x² - 3x + C", "c": false}
+          ],
+          "exp": "Integrate term by term: (6x³/3) + (4x²/2) - 3x + C = 2x³ + 2x² - 3x + C."
+        },
+        {
+          "q": "Find the gradient of the curve y = 3x² - 4x + 1 at the point x = 2.",
+          "options": [
+            {"t": "8", "c": true},
+            {"t": "6", "c": false},
+            {"t": "5", "c": false},
+            {"t": "12", "c": false}
+          ],
+          "exp": "dy/dx = 6x - 4. At x = 2, gradient = 6(2) - 4 = 8."
+        },
+        {
+          "q": "The probability that a student passes an exam is 0.8. What is the probability that the student fails?",
+          "options": [
+            {"t": "0.2", "c": true},
+            {"t": "0.8", "c": false},
+            {"t": "1.0", "c": false},
+            {"t": "0.0", "c": false}
+          ],
+          "exp": "P(Fail) = 1 - P(Pass) = 1 - 0.8 = 0.2."
+        },
+        {
+          "q": "Find the mode of the following set of data: 3, 5, 7, 3, 2, 8, 3, 5.",
+          "options": [
+            {"t": "3", "c": true},
+            {"t": "5", "c": false},
+            {"t": "7", "c": false},
+            {"t": "8", "c": false}
+          ],
+          "exp": "The number 3 appears most frequently (3 times)."
+        },
+        {
+          "q": "Two die are rolled simultaneously. What is the probability of obtaining a sum of 7?",
+          "options": [
+            {"t": "1/6", "c": true},
+            {"t": "1/12", "c": false},
+            {"t": "5/36", "c": false},
+            {"t": "1/9", "c": false}
+          ],
+          "exp": "Favorable outcomes: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) -> 6 outcomes out of 36. 6/36 = 1/6."
+        },
+        {
+          "q": "Find the stationary points of the function y = x³ - 3x by setting dy/dx = 0.",
+          "options": [
+            {"t": "x = 1 and x = -1", "c": true},
+            {"t": "x = 0 and x = 3", "c": false},
+            {"t": "x = 3 and x = -3", "c": false},
+            {"t": "x = 2 and x = -2", "c": false}
+          ],
+          "exp": "dy/dx = 3x² - 3 = 0 ⇒ 3(x² - 1) = 0 ⇒ x = 1 or x = -1."
+        },
+        {
+          "q": "Calculate the range of the scores: 15, 22, 9, 31, 18, 27.",
+          "options": [
+            {"t": "22", "c": true},
+            {"t": "31", "c": false},
+            {"t": "9", "c": false},
+            {"t": "18", "c": false}
+          ],
+          "exp": "Range = Highest - Lowest = 31 - 9 = 22."
+        },
+        {
+          "q": "Evaluate the definite integral ∫₁² (2x + 3) dx.",
+          "options": [
+            {"t": "6", "c": true},
+            {"t": "5", "c": false},
+            {"t": "8", "c": false},
+            {"t": "4", "c": false}
+          ],
+          "exp": "[x² + 3x] from 1 to 2 = (4 + 6) - (1 + 3) = 10 - 4 = 6."
+        },
+        {
+          "q": "If the mean of 5 numbers is 12 and another number 18 is added, find the new mean.",
+          "options": [
+            {"t": "13", "c": true},
+            {"t": "14", "c": false},
+            {"t": "15", "c": false},
+            {"t": "12.5", "c": false}
+          ],
+          "exp": "Sum of 5 = 5 × 12 = 60. New sum = 60 + 18 = 78. New mean = 78 / 6 = 13."
+        },
+        {
+          "q": "A card is drawn from a standard deck of 52 playing cards. What is the probability that it is a face card (Jack, Queen, or King)?",
+          "options": [
+            {"t": "3/13", "c": true},
+            {"t": "1/4", "c": false},
+            {"t": "12/52", "c": false},
+            {"t": "1/13", "c": false}
+          ],
+          "exp": "Total face cards = 12. Probability = 12 / 52 = 3 / 13."
+        },
+        {
+          "q": "Find the acceleration of a particle whose displacement is given by s = t³ - 6t² + 9t at t = 2 seconds.",
+          "options": [
+            {"t": "0 m/s²", "c": true},
+            {"t": "3 m/s²", "c": false},
+            {"t": "-6 m/s²", "c": false},
+            {"t": "6 m/s²", "c": false}
+          ],
+          "exp": "Velocity v = ds/dt = 3t² - 12t + 9. Acceleration a = dv/dt = 6t - 12. At t = 2, a = 6(2) - 12 = 0."
         }
       ]
     }

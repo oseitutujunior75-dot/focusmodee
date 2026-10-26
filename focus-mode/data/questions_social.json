@@ -2,8 +2,8 @@
   "subject": "social",
   "topics": [
     {
-      "topicName": "Governance, Democracy & Civic Rights",
-      "nodeRange": [1, 60],
+      "topicName": "Governance, Democracy & Constitution",
+      "nodeRange": [1, 30],
       "questions": [
         {
           "q": "Which arm of government is primarily responsible for the execution and enforcement of laws?",
@@ -13,7 +13,7 @@
             {"t": "The Judiciary", "c": false},
             {"t": "The Press", "c": false}
           ],
-          "exp": "The Executive branch, headed by the president/cabinet, implements and administers laws."
+          "exp": "The Executive branch, headed by the president and cabinet, implements and administers state laws."
         },
         {
           "q": "What is the primary purpose of the principle of 'Separation of Powers' in a democratic state?",
@@ -26,40 +26,952 @@
           "exp": "Separation of powers ensures checks and balances across the executive, legislative, and judicial branches."
         },
         {
-          "q": "Which of the following is considered a fundamental human right enshrined in modern constitutions?",
+          "q": "Which of the following is considered a fundamental human right enshrined in modern democratic constitutions?",
           "options": [
             {"t": "Freedom of speech and expression", "c": true},
             {"t": "Exemption from paying all municipal taxes", "c": false},
             {"t": "Immunity from criminal prosecution", "c": false},
             {"t": "Guaranteed employment in the civil service", "c": false}
           ],
-          "exp": "Freedom of speech is a universally recognized fundamental civil liberty."
+          "exp": "Freedom of speech is a universally recognized fundamental civil liberty in democratic societies."
+        },
+        {
+          "q": "An electoral system where seats in the legislature are allocated in proportion to the total votes cast for each party is called...",
+          "options": [
+            {"t": "Proportional Representation", "c": true},
+            {"t": "First-Past-The-Post", "c": false},
+            {"t": "Single-Member Plurality", "c": false},
+            {"t": "Monarchical Succession", "c": false}
+          ],
+          "exp": "Proportional representation allocates parliamentary seats according to each party's percentage of the total popular vote."
+        },
+        {
+          "q": "What core document establishes the supreme laws, rights, and duties of citizens in a sovereign nation?",
+          "options": [
+            {"t": "The Constitution", "c": true},
+            {"t": "The National Budget", "c": false},
+            {"t": "The Penal Code", "c": false},
+            {"t": "A Presidential Decree", "c": false}
+          ],
+          "exp": "The constitution serves as the fundamental and supreme law of the land from which all other laws derive authority."
+        },
+        {
+          "q": "Which body is constitutionally mandated to conduct and supervise public elections in Ghana?",
+          "options": [
+            {"t": "The Electoral Commission", "c": true},
+            {"t": "The Supreme Court", "c": false},
+            {"t": "Parliament", "c": false},
+            {"t": "The National Commission for Civic Education", "c": false}
+          ],
+          "exp": "The Electoral Commission is an independent constitutional body responsible for organizing free and fair elections."
+        },
+        {
+          "q": "The process by which citizens participate in public affairs and hold leaders accountable between elections is known as...",
+          "options": [
+            {"t": "Civic engagement", "c": true},
+            {"t": "Political apathy", "c": false},
+            {"t": "Coup d'état", "c": false},
+            {"t": "Judicial review", "c": false}
+          ],
+          "exp": "Civic engagement encompasses active participation in community and national governance."
+        },
+        {
+          "q": "Which organ of government has the sole authority to debate, amend, and pass new statutes or bills into law?",
+          "options": [
+            {"t": "The Legislature", "c": true},
+            {"t": "The Executive", "c": false},
+            {"t": "The Police Council", "c": false},
+            {"t": "The Cabinet", "c": false}
+          ],
+          "exp": "The legislature (Parliament) is the law-making body representing citizens."
+        },
+        {
+          "q": "Rule of law implies that...",
+          "options": [
+            {"t": "No individual, regardless of status, is above the law", "c": true},
+            {"t": "The president has absolute executive immunity from all scrutiny", "c": false},
+            {"t": "Judges can create criminal offenses arbitrarily", "c": false},
+            {"t": "Military decrees override constitutional provisions", "c": false}
+          ],
+          "exp": "Rule of law guarantees equality before the law and prevents arbitrary exercise of power."
+        },
+        {
+          "q": "What is the primary function of the Judiciary?",
+          "options": [
+            {"t": "To interpret laws and administer justice impartially", "c": true},
+            {"t": "To draft annual fiscal budgets", "c": false},
+            {"t": "To deploy national defense forces", "c": false},
+            {"t": "To construct public infrastructure", "c": false}
+          ],
+          "exp": "The judiciary resolves legal disputes and interprets statutory laws and constitutional clauses."
+        },
+        {
+          "q": "Which term describes a system of government where power is shared between a central national government and regional or state governments?",
+          "options": [
+            {"t": "Federalism", "c": true},
+            {"t": "Unitary system", "c": false},
+            {"t": "Absolute Monarchy", "c": false},
+            {"t": "Oligarchy", "c": false}
+          ],
+          "exp": "Federalism decentralizes political authority between central and federating regional units."
+        },
+        {
+          "q": "A citizen's obligation to pay taxes, obey traffic regulations, and respect state symbols represents their...",
+          "options": [
+            {"t": "Civic duties", "c": true},
+            {"t": "Inalienable rights", "c": false},
+            {"t": "Diplomatic immunities", "c": false},
+            {"t": "Prerogative powers", "c": false}
+          ],
+          "exp": "Civic duties are mandatory responsibilities required of citizens to sustain public administration."
+        },
+        {
+          "q": "What does the acronym NCCE stand for in the context of civic education in Ghana?",
+          "options": [
+            {"t": "National Commission for Civic Education", "c": true},
+            {"t": "National Council for Curriculum Evaluation", "c": false},
+            {"t": "New Constitutional Consultative Executive", "c": false},
+            {"t": "National Community Cooperative Enterprise", "c": false}
+          ],
+          "exp": "The NCCE educates citizens on their civic rights, responsibilities, and democratic principles."
+        },
+        {
+          "q": "Decentralization in local governance is primarily designed to...",
+          "options": [
+            {"t": "Bring decision-making and development closer to grassroots communities", "c": true},
+            {"t": "Concentrate all state resources in the capital city", "c": false},
+            {"t": "Abolish regional administrative boundaries", "c": false},
+            {"t": "Eliminate the need for local taxation", "c": false}
+          ],
+          "exp": "Local government decentralization empowers districts and municipalities to manage local development."
+        },
+        {
+          "q": "What is meant by 'Universal Adult Suffrage'?",
+          "options": [
+            {"t": "The right of all qualified adult citizens to vote in elections", "c": true},
+            {"t": "Voting rights restricted to landowners only", "c": false},
+            {"t": "Mandatory voting backed by legal penalties", "c": false},
+            {"t": "Suffrage granted exclusively to university graduates", "c": false}
+          ],
+          "exp": "Universal adult suffrage ensures every adult citizen meets voting criteria without discriminatory barriers."
+        },
+        {
+          "q": "An independent press acts as the 'Fourth Estate of the Realm' primarily by...",
+          "options": [
+            {"t": "Keeping the public informed and holding public officials accountable", "c": true},
+            {"t": "Passing binding legislative bills into law", "c": false},
+            {"t": "Adjudicating high court criminal cases", "c": false},
+            {"t": "Collecting internal revenue taxes", "c": false}
+          ],
+          "exp": "The media provides public oversight and investigative journalism over government actions."
+        },
+        {
+          "q": "Which of the following is a threat to democratic stability in developing nations?",
+          "options": [
+            {"t": "Political corruption and electoral violence", "c": true},
+            {"t": "Independent judicial rulings", "c": false},
+            {"t": "Transparent public auditing", "c": false},
+            {"t": "Active civic participation", "c": false}
+          ],
+          "exp": "Corruption and violence undermine institutional trust and democratic continuity."
+        },
+        {
+          "q": "The Commission on Human Rights and Administrative Justice (CHRAJ) investigates...",
+          "options": [
+            {"t": "Human rights violations and administrative injustice or corruption", "c": true},
+            {"t": "National football match results", "c": false},
+            {"t": "International stock exchange rates", "c": false},
+            {"t": "Secondary school curriculum design", "c": false}
+          ],
+          "exp": "CHRAJ serves as an ombudsman and human rights watchdog."
+        },
+        {
+          "q": "What does a 'bicameral legislature' mean?",
+          "options": [
+            {"t": "A parliament consisting of two chambers or houses", "c": true},
+            {"t": "A government led by two co-presidents", "c": false},
+            {"t": "An electoral system with two voting rounds", "c": false},
+            {"t": "A judicial system with two supreme courts", "c": false}
+          ],
+          "exp": "Bicameral legislatures feature two houses, such as a Senate and House of Representatives."
+        },
+        {
+          "q": "Which concept refers to the total transfer of sovereign power to govern from a colonial power to an independent indigenous population?",
+          "options": [
+            {"t": "Political Independence / Decolonization", "c": true},
+            {"t": "Globalization", "c": false},
+            {"t": "Industrialization", "c": false},
+            {"t": "Urbanization", "c": false}
+          ],
+          "exp": "Decolonization marks the attainment of national sovereignty."
+        },
+        {
+          "q": "A written constitution is advantageous primarily because...",
+          "options": [
+            {"t": "It provides clarity and prevents arbitrary constitutional interpretations", "c": true},
+            {"t": "It can never be amended under any circumstance", "c": false},
+            {"t": "It eliminates the need for legislative assemblies", "c": false},
+            {"t": "It makes legal codes incomprehensible to ordinary citizens", "c": false}
+          ],
+          "exp": "Written constitutions consolidate fundamental state laws in a single document."
+        },
+        {
+          "q": "What is the primary role of opposition political parties in a democracy?",
+          "options": [
+            {"t": "To offer constructive alternatives and keep the ruling government in check", "c": true},
+            {"t": "To obstruct all national development projects unconditionally", "c": false},
+            {"t": "To replace the judiciary during legal disputes", "c": false},
+            {"t": "To collect state taxes from citizens", "c": false}
+          ],
+          "exp": "Opposition parties provide checks on executive overreach and present alternative policies."
+        },
+        {
+          "q": "Good governance is best characterized by which of the following pillars?",
+          "options": [
+            {"t": "Transparency, accountability, and rule of law", "c": true},
+            {"t": "Secrecy, censorship, and arbitrary decree", "c": false},
+            {"t": "Centralized dictatorship and nepotism", "c": false},
+            {"t": "Suppression of minority opinions", "c": false}
+          ],
+          "exp": "Good governance relies on transparency, responsiveness, and accountability."
+        },
+        {
+          "q": "The franchise refers to...",
+          "options": [
+            {"t": "The constitutional right to vote in public elections", "c": true},
+            {"t": "A commercial business license", "c": false},
+            {"t": "A parliamentary immunity clause", "c": false},
+            {"t": "A presidential veto power", "c": false}
+          ],
+          "exp": "Franchise is synonymous with suffrage or voting rights."
+        },
+        {
+          "q": "Which historical event marked Ghana's attainment of independence from British colonial rule?",
+          "options": [
+            {"t": "6th March 1957", "c": true},
+            {"t": "1st July 1960", "c": false},
+            {"t": "13th January 1972", "c": false},
+            {"t": "7th January 1993", "c": false}
+          ],
+          "exp": "Ghana gained independence on March 6, 1957, led by Kwame Nkrumah."
         }
       ]
     },
     {
-      "topicName": "Socio-Economic Development & Environment",
-      "nodeRange": [61, 120],
+      "topicName": "National Unity, Culture & Socialization",
+      "nodeRange": [31, 60],
       "questions": [
         {
-          "q": "What does Sustainable Development primarily aim to achieve?",
+          "q": "The process by which an individual learns and adopts the values, norms, and behaviors of their society is called...",
           "options": [
-            {"t": "Meeting current societal needs without compromising the ability of future generations to meet theirs", "c": true},
-            {"t": "Maximized industrial output regardless of carbon emissions", "c": false},
-            {"t": "Strict preservation of all natural resources with zero human utilization", "c": false},
-            {"t": "Rapid urbanization centered around heavy manufacturing", "c": false}
+            {"t": "Socialization", "c": true},
+            {"t": "Stratification", "c": false},
+            {"t": "Secularization", "c": false},
+            {"t": "Inflation", "c": false}
           ],
-          "exp": "Sustainable development balances economic growth, social inclusion, and environmental protection."
+          "exp": "Socialization is lifelong cultural learning transmitted through family, school, and community."
         },
         {
-          "q": "Which environmental strategy directly reduces urban vehicle emissions and particulate pollution?",
+          "q": "Which of the following is considered the primary agent of socialization during early childhood?",
           "options": [
-            {"t": "Promoting automated vehicle emissions testing and public transit systems", "c": true},
-            {"t": "Increasing industrial diesel subsidies", "c": false},
-            {"t": "Banning municipal recycling programs", "c": false},
-            {"t": "Encouraging open-air waste burning", "c": false}
+            {"t": "The Family", "c": true},
+            {"t": "Mass Media", "c": false},
+            {"t": "Peer Groups", "c": false},
+            {"t": "The Workplace", "c": false}
           ],
-          "exp": "Emissions testing units and public transport reduce carbon footprints and improve air quality."
+          "exp": "The family is the foundational primary agent shaping basic moral and social values."
+        },
+        {
+          "q": "Cultural ethnocentrism refers to...",
+          "options": [
+            {"t": "Judging other cultures by the standards and values of one's own culture", "c": true},
+            {"t": "Appreciating all cultural practices equally", "c": false},
+            {"t": "Adopting foreign traditions without question", "c": false},
+            {"t": "Preserving indigenous artifacts in museums", "c": false}
+          ],
+          "exp": "Ethnocentrism involves viewing one's own culture as superior while looking down on others."
+        },
+        {
+          "q": "National integration in a multi-ethnic nation like Ghana is best promoted through...",
+          "options": [
+            {"t": "Inter-ethnic marriages, national festivals, and equitable resource distribution", "c": true},
+            {"t": "Promoting tribalism and regional segregation", "c": false},
+            {"t": "Banning local languages in public spaces", "c": false},
+            {"t": "Concentrating development in a single region", "c": false}
+          ],
+          "exp": "National integration bridges ethnic divides to foster unity and shared identity."
+        },
+        {
+          "q": "Outmoded cultural practices such as ritual servitude (trokosi) or harmful widowhood rites violate...",
+          "options": [
+            {"t": "Fundamental human rights and dignity", "c": true},
+            {"t": "International trade tariffs", "c": false},
+            {"t": "Fiscal monetary policies", "c": false},
+            {"t": "Parliamentary standing orders", "c": false}
+          ],
+          "exp": "Harmful traditional practices infringe upon personal liberty, health, and human rights."
+        },
+        {
+          "q": "What is the difference between positive and negative aspects of culture?",
+          "options": [
+            {"t": "Positive traditions promote communal harmony and industry, while negative ones promote discrimination and abuse", "c": true},
+            {"t": "Positive culture is foreign, while negative culture is local", "c": false},
+            {"t": "Culture has no negative elements", "c": false},
+            {"t": "Positive culture applies only to art, not social norms", "c": false}
+          ],
+          "exp": "Culture is dynamic; beneficial elements foster progress, whereas harmful traits impede human rights."
+        },
+        {
+          "q": "Secondary socialization agents include...",
+          "options": [
+            {"t": "Schools, peer groups, mass media, and religious institutions", "c": true},
+            {"t": "Parents and immediate siblings only", "c": false},
+            {"t": "Genetic inheritance and reflexes", "c": false},
+            {"t": "Infant care routines", "c": false}
+          ],
+          "exp": "Secondary socialization occurs outside the family in broader societal institutions."
+        },
+        {
+          "q": "What role do festivals play in Ghanaian cultural heritage?",
+          "options": [
+            {"t": "They commemorate historical milestones, promote reconciliation, and foster tourism", "c": true},
+            {"t": "They serve exclusively to disrupt economic activities", "c": false},
+            {"t": "They are mandated by international monetary funds", "c": false},
+            {"t": "They replace the legal judicial system", "c": false}
+          ],
+          "exp": "Traditional festivals reinforce communal bonds, history, and cultural identity."
+        },
+        {
+          "q": "The peaceful coexistence of diverse religious groups in a society is termed...",
+          "options": [
+            {"t": "Religious tolerance / pluralism", "c": true},
+            {"t": "Religious fundamentalism", "c": false},
+            {"t": "State atheism", "c": false},
+            {"t": "Monotheistic imperialism", "c": false}
+          ],
+          "exp": "Religious tolerance ensures mutual respect among different faiths."
+        },
+        {
+          "q": "Which of the following best defines 'Culture'?",
+          "options": [
+            {"t": "The total way of life of a people, including beliefs, language, arts, and institutions", "c": true},
+            {"t": "Strictly classical music and art exhibitions", "c": false},
+            {"t": "Government administrative policies", "c": false},
+            {"t": "Biological characteristics inherited at birth", "c": false}
+          ],
+          "exp": "Culture encompasses all learned behaviors, artifacts, and belief systems of a society."
+        },
+        {
+          "q": "A nuclear family consists of...",
+          "options": [
+            {"t": "Father, mother, and children", "c": true},
+            {"t": "Grandparents, aunts, uncles, and cousins living together", "c": false},
+            {"t": "Peers in a school dormitory", "c": false},
+            {"t": "Colleagues in a corporate office", "c": false}
+          ],
+          "exp": "The nuclear family is the immediate household unit."
+        },
+        {
+          "q": "An extended family system provides social security primarily by...",
+          "options": [
+            {"t": "Supporting vulnerable members, orphans, and the aged collectively", "c": true},
+            {"t": "Imposing heavy taxation on younger relatives", "c": false},
+            {"t": "Eliminating the need for formal education", "c": false},
+            {"t": "Isolating individuals from community networks", "c": false}
+          ],
+          "exp": "Extended family structures offer strong communal and financial safety nets."
+        },
+        {
+          "q": "Language is considered the most crucial vehicle of culture because...",
+          "options": [
+            {"t": "It enables the transmission of knowledge, values, and history across generations", "c": true},
+            {"t": "It prevents cultural evolution", "c": false},
+            {"t": "It is identical across all human civilizations", "c": false},
+            {"t": "It has no connection to social identity", "c": false}
+          ],
+          "exp": "Language preserves and communicates cultural heritage and abstract thoughts."
+        },
+        {
+          "q": "Social stratification refers to...",
+          "options": [
+            {"t": "The hierarchical arrangement of individuals into social classes based on wealth, power, and status", "c": true},
+            {"t": "Equal distribution of income across all households", "c": false},
+            {"t": "Geographical mapping of agricultural zones", "c": false},
+            {"t": "Biological classification of plant species", "c": false}
+          ],
+          "exp": "Stratification categorizes groups into layers of socioeconomic hierarchy."
+        },
+        {
+          "q": "What is cultural lag?",
+          "options": [
+            {"t": "The delay in cultural adaptation when non-material culture struggles to keep pace with rapid technological advancements", "c": true},
+            {"t": "The complete disappearance of ancient languages", "c": false},
+            {"t": "The slow growth of agricultural crops during droughts", "c": false},
+            {"t": "Delays in international shipping cargo", "c": false}
+          ],
+          "exp": "Cultural lag occurs when societal values and laws lag behind technological innovation."
+        },
+        {
+          "q": "Adolescent reproductive health education is important because it helps young people...",
+          "options": [
+            {"t": "Make informed decisions, prevent STIs, and avoid unwanted teenage pregnancies", "c": true},
+            {"t": "Ignore medical advice entirely", "c": false},
+            {"t": "Accelerate population aging", "c": false},
+            {"t": "Discontinue formal schooling", "c": false}
+          ],
+          "exp": "Reproductive health education empowers youth with vital health knowledge."
+        },
+        {
+          "q": "Gender equity differs from gender equality in that equity focuses on...",
+          "options": [
+            {"t": "Fairness and justice in treatment according to respective needs, compensating for historical disadvantages", "c": true},
+            {"t": "Giving identical treatment to everyone regardless of context", "c": false},
+            {"t": "Eliminating biological differences between sexes", "c": false},
+            {"t": "Granting political leadership exclusively to women", "c": false}
+          ],
+          "exp": "Equity achieves fairness through targeted measures, whereas equality focuses on equal treatment."
+        },
+        {
+          "q": "Which of the following is a major cause of rural-urban migration in West Africa?",
+          "options": [
+            {"t": "Search for better employment opportunities, amenities, and education in cities", "c": true},
+            {"t": "Excessive rainfall in rural farming communities", "c": false},
+            {"t": "Lack of urban traffic congestion", "c": false},
+            {"t": "Mandatory government relocation decrees", "c": false}
+          ],
+          "exp": "Rural-urban drift is driven by real or perceived urban socioeconomic disparities."
+        },
+        {
+          "q": "Stigmatization against people living with HIV/AIDS results primarily from...",
+          "options": [
+            {"t": "Ignorance, myths, and misconceptions regarding transmission modes", "c": true},
+            {"t": "Scientific validation of viral behavior", "c": false},
+            {"t": "Comprehensive public health literacy", "c": false},
+            {"t": "Equitable healthcare access", "c": false}
+          ],
+          "exp": "Stigma stems from fear and lack of accurate health education."
+        },
+        {
+          "q": "The maintenance of positive interpersonal relationships within a community relies heavily on...",
+          "options": [
+            {"t": "Empathy, mutual respect, effective communication, and tolerance", "c": true},
+            {"t": "Aggressive competition and litigation", "c": false},
+            {"t": "Isolation and suspicion of neighbors", "c": false},
+            {"t": "Imposing cultural conformity by force", "c": false}
+          ],
+          "exp": "Positive social cohesion is built on empathy and respectful dialogue."
+        },
+        {
+          "q": "Patriotism is best demonstrated by...",
+          "options": [
+            {"t": "Contributing honestly to national development, protecting state property, and upholding integrity", "c": true},
+            {"t": "Blindly endorsing government corruption", "c": false},
+            {"t": "Insulting citizens of other nationalities", "c": false},
+            {"t": "Refusing to pay municipal taxes", "c": false}
+          ],
+          "exp": "True patriotism involves constructive civic duty and national pride."
+        },
+        {
+          "q": "Child labor and child trafficking are severe social vices because they...",
+          "options": [
+            {"t": "Exploit minors, deny them education, and damage physical/psychological well-being", "c": true},
+            {"t": "Enhance industrial skill acquisition", "c": false},
+            {"t": "Boost household income sustainably", "c": false},
+            {"t": "Fulfill international human rights obligations", "c": false}
+          ],
+          "exp": "Child exploitation denies children their fundamental rights to education and safety."
+        },
+        {
+          "q": "What is cultural diffusion?",
+          "options": [
+            {"t": "The spread of cultural beliefs, social activities, and items from one group to another", "c": true},
+            {"t": "The complete eradication of all folk traditions", "c": false},
+            {"t": "Internal political isolationism", "c": false},
+            {"t": "Biological mutation within a population", "c": false}
+          ],
+          "exp": "Cultural diffusion occurs through trade, migration, and media contact."
+        },
+        {
+          "q": "Drug abuse among youth is frequently driven by which psychosocial factor?",
+          "options": [
+            {"t": "Peer pressure, unemployment, frustration, and curiosity", "c": true},
+            {"t": "Rigorous athletic training regimens", "c": false},
+            {"t": "Excessive academic tutoring", "c": false},
+            {"t": "Strict parental guidance", "c": false}
+          ],
+          "exp": "Substance abuse is often linked to peer pressure and socioeconomic stress."
+        },
+        {
+          "q": "Voluntarism in community development refers to...",
+          "options": [
+            {"t": "Freely offering time and resources to assist community projects without financial compulsion", "c": true},
+            {"t": "Mandatory state labor service for convicts", "c": false},
+            {"t": "Corporate tax avoidance schemes", "c": false},
+            {"t": "Paid consultancy contracts", "c": false}
+          ],
+          "exp": "Voluntarism strengthens civil society and community self-reliance."
+        }
+      ]
+    },
+    {
+      "topicName": "Economic Development, Entrepreneurship & Globalization",
+      "nodeRange": [61, 90],
+      "questions": [
+        {
+          "q": "Entrepreneurship contributes significantly to economic development primarily by...",
+          "options": [
+            {"t": "Creating jobs, fostering innovation, and generating wealth", "c": true},
+            {"t": "Increasing national debt obligations", "c": false},
+            {"t": "Depleting national natural resources without return", "c": false},
+            {"t": "Relying entirely on foreign government subventions", "c": false}
+          ],
+          "exp": "Entrepreneurs drive economic growth through innovation and employment generation."
+        },
+        {
+          "q": "What is inflation?",
+          "options": [
+            {"t": "A persistent rise in the general price level of goods and services over time", "c": true},
+            {"t": "A sudden drop in foreign exchange reserves", "c": false},
+            {"t": "An increase in the purchasing power of currency", "c": false},
+            {"t": "The expansion of national agricultural output", "c": false}
+          ],
+          "exp": "Inflation reduces currency purchasing power as price levels increase."
+        },
+        {
+          "q": "Globalization is best described as...",
+          "options": [
+            {"t": "The increasing interconnectedness and interdependence of world economies, cultures, and populations", "c": true},
+            {"t": "Strict economic isolation and trade protectionism", "c": false},
+            {"t": "The unification of all global currencies into one", "c": false},
+            {"t": "The elimination of all sovereign national borders", "c": false}
+          ],
+          "exp": "Globalization links global markets, technology, and cultural exchanges."
+        },
+        {
+          "q": "Which of the following is a major advantage of international trade?",
+          "options": [
+            {"t": "Access to goods and services that a country cannot efficiently produce domestically", "c": true},
+            {"t": "Elimination of domestic competition entirely", "c": false},
+            {"t": "Guaranteed trade deficits for developing nations", "c": false},
+            {"t": "Absolute economic self-sufficiency", "c": false}
+          ],
+          "exp": "Trade allows countries to specialize and import goods beyond domestic capabilities."
+        },
+        {
+          "q": "What does Gross Domestic Product (GDP) measure?",
+          "options": [
+            {"t": "The total monetary value of all finished goods and services produced within a country's borders in a specific time period", "c": true},
+            {"t": "The total foreign debt owed by a government", "c": false},
+            {"t": "The net income earned by citizens living abroad", "c": false},
+            {"t": "Total government tax revenue collected annually", "c": false}
+          ],
+          "exp": "GDP is the standard indicator of domestic economic output and size."
+        },
+        {
+          "q": "A budget deficit occurs when...",
+          "options": [
+            {"t": "Government expenditures exceed total revenue collected", "c": true},
+            {"t": "Tax revenue exceeds public spending", "c": false},
+            {"t": "Imports equal exports exactly", "c": false},
+            {"t": "Foreign exchange reserves reach peak levels", "c": false}
+          ],
+          "exp": "Deficits require governments to borrow funds to cover shortfalls."
+        },
+        {
+          "q": "What is the primary function of a Central Bank in a nation's economy?",
+          "options": [
+            {"t": "Issuing currency, regulating commercial banks, and managing monetary policy", "c": true},
+            {"t": "Providing retail banking accounts to everyday citizens", "c": false},
+            {"t": "Operating private manufacturing corporations", "c": false},
+            {"t": "Fixing retail prices for agricultural produce", "c": false}
+          ],
+          "exp": "Central banks oversee monetary stability, interest rates, and currency issuance."
+        },
+        {
+          "q": "What is a key characteristic of subsistence agriculture?",
+          "options": [
+            {"t": "Farming primarily to feed the farmer's family with little surplus for commercial sale", "c": true},
+            {"t": "Massive mechanized export production on commercial estates", "c": false},
+            {"t": "Strictly indoor hydroponic cultivation", "c": false},
+            {"t": "Livestock breeding exclusively for international fashion markets", "c": false}
+          ],
+          "exp": "Subsistence farming focuses on direct family consumption."
+        },
+        {
+          "q": "Economic diversification is crucial for developing nations because...",
+          "options": [
+            {"t": "It reduces vulnerability to price shocks in a single primary commodity export", "c": true},
+            {"t": "It eliminates all forms of taxation", "c": false},
+            {"t": "It guarantees zero inflation", "c": false},
+            {"t": "It stops international trade completely", "c": false}
+          ],
+          "exp": "Diversification protects economies from reliance on volatile single-commodity markets like cocoa or oil."
+        },
+        {
+          "q": "What does the term 'brain drain' mean in developing economies?",
+          "options": [
+            {"t": "The emigration of trained and educated professionals to developed nations", "c": true},
+            {"t": "A neurological condition caused by academic stress", "c": false},
+            {"t": "The closing of public universities due to funding cuts", "c": false},
+            {"t": "Mass retirement of civil servants", "c": false}
+          ],
+          "exp": "Brain drain deprives developing countries of critical human capital."
+        },
+        {
+          "q": "Which financial institution provides loans and grants to developing countries for capital projects and poverty reduction?",
+          "options": [
+            {"t": "The World Bank", "c": true},
+            {"t": "World Health Organization", "c": false},
+            {"t": "OPEC", "c": false},
+            {"t": "Interpol", "c": false}
+          ],
+          "exp": "The World Bank finances long-term development and infrastructure projects."
+        },
+        {
+          "q": "What is the informal economic sector characterized by?",
+          "options": [
+            {"t": "Small-scale, unregistered, labor-intensive enterprises operating outside formal taxation and regulation", "c": true},
+            {"t": "Multinational corporations listed on stock exchanges", "c": false},
+            {"t": "Government parastatals and ministries", "c": false},
+            {"t": "Large commercial banks", "c": false}
+          ],
+          "exp": "The informal sector provides widespread self-employment and small-scale trade."
+        },
+        {
+          "q": "What is meant by 'sustainable economic development'?",
+          "options": [
+            {"t": "Growth that satisfies current economic needs without depleting resources for future generations", "c": true},
+            {"t": "Maximizing short-term profit through unchecked environmental degradation", "c": false},
+            {"t": "Relying exclusively on foreign aid grants", "c": false},
+            {"t": "Halting all industrial output to preserve forests", "c": false}
+          ],
+          "exp": "Sustainable development balances economic progress with environmental preservation."
+        },
+        {
+          "q": "What is the primary role of ECOWAS (Economic Community of West African States)?",
+          "options": [
+            {"t": "To promote economic integration, regional cooperation, and free movement of people/goods", "c": true},
+            {"t": "To colonize neighboring territories", "c": false},
+            {"t": "To regulate global petroleum prices", "c": false},
+            {"t": "To serve as a continental military dictatorship", "c": false}
+          ],
+          "exp": "ECOWAS fosters regional economic integration and security cooperation in West Africa."
+        },
+        {
+          "q": "An entrepreneur demonstrates which of the following key traits?",
+          "options": [
+            {"t": "Risk-taking, innovation, resourcefulness, and persistence", "c": true},
+            {"t": "Aversion to any form of financial risk", "c": false},
+            {"t": "Strict adherence to routine bureaucratic procedures", "c": false},
+            {"t": "Dependence on fixed monthly wages", "c": false}
+          ],
+          "exp": "Entrepreneurs identify market gaps and take calculated risks to build ventures."
+        },
+        {
+          "q": "What is a 'balance of trade'?",
+          "options": [
+            {"t": "The difference in value between a country's imports and exports over a period", "c": true},
+            {"t": "The total gold reserves held in a national vault", "c": false},
+            {"t": "The ratio between public and private debt", "c": false},
+            {"t": "The government budget surplus", "c": false}
+          ],
+          "exp": "Balance of trade tracks whether a country exports more than it imports (surplus vs. deficit)."
+        },
+        {
+          "q": "What is commercialization in state enterprises?",
+          "options": [
+            {"t": "Restructuring state-owned businesses to operate profitably on commercial and competitive principles", "c": true},
+            {"t": "Shutting down all public utilities permanently", "c": false},
+            {"t": "Giving away public goods for free", "c": false},
+            {"t": "Banning private business ownership", "c": false}
+          ],
+          "exp": "Commercialization improves efficiency and reduces reliance on state subsidies."
+        },
+        {
+          "q": "What is the primary objective of trade unions?",
+          "options": [
+            {"t": "To protect workers' rights, negotiate better wages, and ensure safe working conditions", "c": true},
+            {"t": "To maximize corporate shareholder dividends", "c": false},
+            {"t": "To dissolve government labor ministries", "c": false},
+            {"t": "To increase product prices for consumers", "c": false}
+          ],
+          "exp": "Trade unions advocate for worker welfare and collective bargaining."
+        },
+        {
+          "q": "What is poverty alleviation best achieved through?",
+          "options": [
+            {"t": "Job creation, quality education, skills training, and accessible healthcare", "c": true},
+            {"t": "Relying solely on temporary charitable handouts", "c": false},
+            {"t": "Imposing prohibitive taxes on small businesses", "c": false},
+            {"t": "Restricting rural citizens from traveling", "c": false}
+          ],
+          "exp": "Sustainable poverty reduction requires empowering people with economic capacity."
+        },
+        {
+          "q": "What is meant by 'foreign direct investment' (FDI)?",
+          "options": [
+            {"t": "An investment made by a company or individual in one country in business interests in another country", "c": true},
+            {"t": "Short-term humanitarian food aid donations", "c": false},
+            {"t": "Government-to-government military loans", "c": false},
+            {"t": "Citizens purchasing foreign currency for vacation travel", "c": false}
+          ],
+          "exp": "FDI injects capital, technology, and employment into domestic economies."
+        },
+        {
+          "q": "Why is tourism considered a vital sector for economic diversification?",
+          "options": [
+            {"t": "It generates foreign exchange revenue, creates jobs, and showcases cultural heritage", "c": true},
+            {"t": "It depletes non-renewable mineral reserves rapidly", "c": false},
+            {"t": "It requires zero infrastructure development", "c": false},
+            {"t": "It eliminates the need for agriculture", "c": false}
+          ],
+          "exp": "Tourism is a clean service industry driving foreign currency inflows."
+        },
+        {
+          "q": "What is a monopoly in economic markets?",
+          "options": [
+            {"t": "A market structure where a single seller or producer controls the entire supply of a good or service", "c": true},
+            {"t": "A competitive marketplace with thousands of independent vendors", "c": false},
+            {"t": "Government-run cooperative farming", "c": false},
+            {"t": "Barter trading between villages", "c": false}
+          ],
+          "exp": "Monopolies lack competition, potentially leading to higher prices and exploitation."
+        },
+        {
+          "q": "Consumer education protects buyers by...",
+          "options": [
+            {"t": "Ensuring consumers know their rights, product standards, and how to avoid fraudulent goods", "c": true},
+            {"t": "Encouraging them to buy expired products", "c": false},
+            {"t": "Preventing them from reporting faulty items", "c": false},
+            {"t": "Eliminating consumer choice in the market", "c": false}
+          ],
+          "exp": "Consumer awareness safeguards public health and financial well-being."
+        },
+        {
+          "q": "What does financial literacy entail?",
+          "options": [
+            {"t": "The ability to understand and effectively manage personal finance through budgeting, saving, and investing", "c": true},
+            {"t": "Knowing how to counterfeit currency", "c": false},
+            {"t": "Avoiding all banking institutions", "c": false},
+            {"t": "Spending all income immediately upon receipt", "c": false}
+          ],
+          "exp": "Financial literacy empowers individuals to build long-term economic stability."
+        },
+        {
+          "q": "What is the primary role of the African Union (AU)?",
+          "options": [
+            {"t": "To promote unity, peace, security, and accelerated socio-economic integration across Africa", "c": true},
+            {"t": "To serve as a European colonial administration", "c": false},
+            {"t": "To regulate global cryptocurrency markets", "c": false},
+            {"t": "To manage international sports tournaments exclusively", "c": false}
+          ],
+          "exp": "The AU drives continental cooperation, democracy, and development."
+        }
+      ]
+    },
+    {
+      "topicName": "Environment, Resource Management & Global Issues",
+      "nodeRange": [91, 120],
+      "questions": [
+        {
+          "q": "Environmental degradation caused by illegal small-scale mining (known locally as 'galamsey') includes...",
+          "options": [
+            {"t": "Severe water pollution, deforestation, and destruction of arable farm lands", "c": true},
+            {"t": "Enhanced soil fertility and afforestation", "c": false},
+            {"t": "Purification of river ecosystems", "c": false},
+            {"t": "Increased wildlife population growth", "c": false}
+          ],
+          "exp": "Galamsey causes devastating mercury pollution in water bodies and destroys forest reserves."
+        },
+        {
+          "q": "Deforestation contributes directly to climate change because...",
+          "options": [
+            {"t": "Trees that absorb carbon dioxide are destroyed, and stored carbon is released back into the atmosphere", "c": true},
+            {"t": "Forests generate excess atmospheric oxygen cooling the earth too fast", "c": false},
+            {"t": "Trees trap solar radiation permanently", "c": false},
+            {"t": "Deforestation increases global rainfall excessively", "c": false}
+          ],
+          "exp": "Forests act as carbon sinks; clearing them accelerates global warming."
+        },
+        {
+          "q": "What is the primary goal of renewable energy adoption?",
+          "options": [
+            {"t": "To transition away from fossil fuels, reduce carbon footprints, and ensure sustainable power", "c": true},
+            {"t": "To increase global greenhouse gas emissions", "c": false},
+            {"t": "To deplete natural energy sources faster", "c": false},
+            {"t": "To make electricity completely inaccessible", "c": false}
+          ],
+          "exp": "Renewable sources like solar, wind, and hydro provide clean, infinite energy."
+        },
+        {
+          "q": "Improper plastic waste disposal in urban areas leads to which major environmental hazard?",
+          "options": [
+            {"t": "Blocked drainage systems resulting in severe seasonal flooding and sanitation diseases", "c": true},
+            {"t": "Enhanced underground water purification", "c": false},
+            {"t": "Increased agricultural crop yields", "c": false},
+            {"t": "Natural reforestation of urban centers", "c": false}
+          ],
+          "exp": "Non-biodegradable plastics choke drains, causing floods and breeding disease vectors."
+        },
+        {
+          "q": "What does the term 'climate change' refer to?",
+          "options": [
+            {"t": "Long-term shifts in global weather patterns and temperatures, largely driven by human activities", "c": true},
+            {"t": "Daily weather fluctuations like sudden afternoon rainshowers", "c": false},
+            {"t": "Seasonal changes between dry and rainy periods", "c": false},
+            {"t": "Temporary drops in local room temperature", "c": false}
+          ],
+          "exp": "Climate change represents sustained planetary shifts driven by industrial emissions."
+        },
+        {
+          "q": "Desertification is best described as...",
+          "options": [
+            {"t": "The degradation of fertile land in arid and semi-arid areas, turning into desert due to climate and human factors", "c": true},
+            {"t": "The expansion of tropical rainforests", "c": false},
+            {"t": "Coastal land reclamation projects", "c": false},
+            {"t": "Urban real estate development", "c": false}
+          ],
+          "exp": "Overgrazing, deforestation, and drought drive desertification, particularly in the Sahel."
+        },
+        {
+          "q": "What is the purpose of establishing national parks and wildlife reserves?",
+          "options": [
+            {"t": "To protect endangered flora and fauna, preserve biodiversity, and promote eco-tourism", "c": true},
+            {"t": "To clear land for commercial industrial logging", "c": false},
+            {"t": "To build residential housing estates", "c": false},
+            {"t": "To mine precious minerals without restriction", "c": false}
+          ],
+          "exp": "Reserves protect fragile ecosystems and endangered species from extinction."
+        },
+        {
+          "q": "What is the 'Greenhouse Effect'?",
+          "options": [
+            {"t": "The trapping of the sun's warmth in a planet's lower atmosphere due to accumulated gases", "c": true},
+            {"t": "The cooling of earth's surface by reflective white roofs", "c": false},
+            {"t": "The process by which plants produce green pigments", "c": false},
+            {"t": "Agricultural greenhouse farming techniques", "c": false}
+          ],
+          "exp": "Greenhouse gases trap heat, maintaining planetary temperatures but worsening global warming when concentrated."
+        },
+        {
+          "q": "What is sanitation management?",
+          "options": [
+            {"t": "Maintaining clean hygienic conditions through proper waste disposal, clean water supply, and personal hygiene", "c": true},
+            {"t": "Allowing refuse to accumulate in public streets", "c": false},
+            {"t": "Ignoring wastewater treatment facilities", "c": false},
+            {"t": "Disposing of industrial chemicals in drinking rivers", "c": false}
+          ],
+          "exp": "Good sanitation prevents waterborne diseases like cholera and typhoid."
+        },
+        {
+          "q": "Why is water conservation critical for human survival?",
+          "options": [
+            {"t": "Freshwater is a finite resource essential for drinking, agriculture, and sanitation", "c": true},
+            {"t": "Oceans are drying up entirely", "c": false},
+            {"t": "Water has no economic value", "c": false},
+            {"t": "Rainfall has become completely impossible", "c": false}
+          ],
+          "exp": "Only a tiny fraction of global water is potable freshwater requiring careful stewardship."
+        },
+        {
+          "q": "What is the primary role of the United Nations (UN) in global affairs?",
+          "options": [
+            {"t": "To maintain international peace and security, foster friendly relations, and promote human rights", "c": true},
+            {"t": "To govern individual nations as a world empire", "c": false},
+            {"t": "To collect global income taxes from all citizens", "c": false},
+            {"t": "To abolish all national cultures", "c": false}
+          ],
+          "exp": "The UN is the premier international organization for diplomacy and collective security."
+        },
+        {
+          "q": "Which of the following is a consequence of rapid and unplanned urbanization?",
+          "options": [
+            {"t": "Growth of slum settlements, traffic congestion, and inadequate public utilities", "c": true},
+            {"t": "Eradication of housing shortages", "c": false},
+            {"t": "Zero unemployment rates", "c": false},
+            {"t": "Pristine environmental cleanliness", "c": false}
+          ],
+          "exp": "Unplanned urban growth strains municipal infrastructure and creates slums."
+        },
+        {
+          "q": "What is 'biodiversity'?",
+          "options": [
+            {"t": "The variety of plant and animal life in the world or in a particular habitat", "c": true},
+            {"t": "The total human population count in a city", "c": false},
+            {"t": "The geological rock layers of a continent", "c": false},
+            {"t": "The chemical composition of soil fertilizers", "c": false}
+          ],
+          "exp": "High biodiversity ensures ecosystem resilience and ecological balance."
+        },
+        {
+          "q": "What is a major cause of marine pollution along coastal waters?",
+          "options": [
+            {"t": "Disposal of plastic waste, untreated industrial sewage, and oil spills into oceans", "c": true},
+            {"t": "Solar power generation farms", "c": false},
+            {"t": "Responsible fishing practices", "c": false},
+            {"t": "Mangrove restoration programs", "c": false}
+          ],
+          "exp": "Marine pollution destroys aquatic life and coastal ecosystems."
+        },
+        {
+          "q": "What does 'sustainable resource management' entail?",
+          "options": [
+            {"t": "Using natural resources wisely so they replenish and remain available for future generations", "c": true},
+            {"t": "Exploiting all minerals as rapidly as possible before they rust", "c": false},
+            {"t": "Banning any human interaction with nature", "c": false},
+            {"t": "Relying exclusively on non-renewable petroleum", "c": false}
+          ],
+          "exp": "Sustainable management prevents resource exhaustion."
+        },
+        {
+          "q": "What is the danger of ozone layer depletion?",
+          "options": [
+            {"t": "It allows harmful ultraviolet (UV) radiation from the sun to reach earth, increasing skin cancer risks", "c": true},
+            {"t": "It causes global freezing and ice ages", "c": false},
+            {"t": "It stops all commercial airplane flights", "c": false},
+            {"t": "It increases atmospheric oxygen to toxic levels", "c": false}
+          ],
+          "exp": "The ozone layer shields earth from dangerous UV solar rays."
+        },
+        {
+          "q": "How does disaster management mitigate natural hazards like floods?",
+          "options": [
+            {"t": "Through early warning systems, proper land-use planning, and emergency preparedness", "c": true},
+            {"t": "By ignoring weather forecasts entirely", "c": false},
+            {"t": "By building homes directly in riverbeds", "c": false},
+            {"t": "By prohibiting meteorological research", "c": false}
+          ],
+          "exp": "Disaster preparedness reduces loss of life and property during crises."
+        },
+        {
+          "q": "What is the significance of recycling?",
+          "options": [
+            {"t": "It converts waste materials into reusable objects, conserving resources and reducing landfill bulk", "c": true},
+            {"t": "It increases raw material extraction from forests", "c": false},
+            {"t": "It generates toxic chemical waste", "c": false},
+            {"t": "It accelerates climate change", "c": false}
+          ],
+          "exp": "Recycling promotes circular economies and minimizes environmental waste."
+        },
+        {
+          "q": "What is meant by 'carbon footprint'?",
+          "options": [
+            {"t": "The total amount of greenhouse gases generated by our actions, expressed as carbon dioxide equivalent", "c": true},
+            {"t": "The physical shoe size of industrial workers", "c": false},
+            {"t": "The amount of coal mined in a single day", "c": false},
+            {"t": "The dark soil left behind by forest fires", "c": false}
+          ],
+          "exp": "Carbon footprints measure individual or organizational contributions to global emissions."
+        },
+        {
+          "q": "Why is international cooperation essential for solving global environmental crises?",
+          "options": [
+            {"t": "Environmental problems like climate change and pollution cross national borders and require joint action", "c": true},
+            {"t": "Individual countries can solve global warming in isolation", "c": false},
+            {"t": "Pollution respects political boundaries and stays in its country of origin", "c": false},
+            {"t": "Global treaties prevent any country from developing economically", "c": false}
+          ],
+          "exp": "Global issues transcend borders, demanding multilateral treaties and cooperation."
         }
       ]
     }
