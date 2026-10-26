@@ -1,0 +1,51 @@
+{
+  "subject": "english",
+  "topics": [
+    {
+      "topicName": "Grammar, Lexis & Structure",
+      "nodeRange": [1, 120],
+      "questions": [
+        {
+          "q": "Choose the word that is nearest in meaning to the capitalized word: His explanation was CONCISE.",
+          "options": [
+            {"t": "Brief and clear", "c": true},
+            {"t": "Lengthy and detailed", "c": false},
+            {"t": "Confusing", "c": false},
+            {"t": "Incomplete", "c": false}
+          ],
+          "exp": "Concise means giving a lot of information clearly and in a few words; brief and clear."
+        },
+        {
+          "q": "Choose the correct option to fill in the blank: Neither the teacher nor the students _____ present at the meeting.",
+          "options": [
+            {"t": "were", "c": true},
+            {"t": "was", "c": false},
+            {"t": "is", "c": false},
+            {"t": "has been", "c": false}
+          ],
+          "exp": "When subjects are connected by 'neither... nor', the verb agrees with the closer subject ('students', which is plural)."
+        },
+        {
+          "q": "Choose the option that best explains the idiom: To 'spill the beans' means to...",
+          "options": [
+            {"t": "reveal a secret prematurely", "c": true},
+            {"t": "make a mess in the kitchen", "c": false},
+            {"t": "waste food items", "c": false},
+            {"t": "plant crops", "c": false}
+          ],
+          "exp": "To spill the beans is an idiom meaning to disclose a secret."
+        },
+        {
+          "q": "Identify the grammatical term for the capitalized phrase: She ran FAST to catch the bus.",
+          "options": [
+            {"t": "Adverb of manner", "c": true},
+            {"t": "Adjective", "c": false},
+            {"t": "Prepositional phrase", "c": false},
+            {"t": "Noun clause", "c": false}
+          ],
+          "exp": "'Fast' modifies the verb 'ran', describing how the action was performed, making it an adverb of manner."
+        }
+      ]
+    }
+  ]
+}

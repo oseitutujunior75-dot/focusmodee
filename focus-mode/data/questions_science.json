@@ -1,0 +1,113 @@
+{
+  "subject": "science",
+  "topics": [
+    {
+      "topicName": "Cell Biology & Biochemistry",
+      "nodeRange": [1, 40],
+      "questions": [
+        {
+          "q": "Which organelle is primarily responsible for ATP synthesis and cellular respiration?",
+          "options": [
+            {"t": "Mitochondrion", "c": true},
+            {"t": "Ribosome", "c": false},
+            {"t": "Golgi apparatus", "c": false},
+            {"t": "Endoplasmic reticulum", "c": false}
+          ],
+          "exp": "Mitochondria generate most of the chemical energy needed to power cellular biochemical reactions."
+        },
+        {
+          "q": "What is the primary end product of glycolysis in animal cells under anaerobic conditions?",
+          "options": [
+            {"t": "Lactic acid", "c": true},
+            {"t": "Ethanol", "c": false},
+            {"t": "Carbon dioxide", "c": false},
+            {"t": "Acetyl-CoA", "c": false}
+          ],
+          "exp": "In the absence of sufficient oxygen, pyruvate is converted into lactic acid during anaerobic respiration in animals."
+        },
+        {
+          "q": "Which blood component is primarily responsible for oxygen transport throughout the human body?",
+          "options": [
+            {"t": "Erythrocytes (Red blood cells)", "c": true},
+            {"t": "Leukocytes (White blood cells)", "c": false},
+            {"t": "Platelets (Thrombocytes)", "c": false},
+            {"t": "Plasma proteins", "c": false}
+          ],
+          "exp": "Red blood cells contain hemoglobin, which binds oxygen molecules in the lungs and releases them in tissues."
+        }
+      ]
+    },
+    {
+      "topicName": "General Physics & Mechanics",
+      "nodeRange": [41, 80],
+      "questions": [
+        {
+          "q": "Calculate the force required to accelerate a 1200 kg vehicle uniformly at 3 m/s².",
+          "options": [
+            {"t": "3600 N", "c": true},
+            {"t": "400 N", "c": false},
+            {"t": "1200 N", "c": false},
+            {"t": "2400 N", "c": false}
+          ],
+          "exp": "Using Newton's Second Law: F = m × a = 1200 × 3 = 3600 N."
+        },
+        {
+          "q": "A car accelerates uniformly from rest at 2 m/s² for 5 seconds. Calculate the total distance covered.",
+          "options": [
+            {"t": "25 m", "c": true},
+            {"t": "10 m", "c": false},
+            {"t": "50 m", "c": false},
+            {"t": "15 m", "c": false}
+          ],
+          "exp": "Using s = ut + ½at²: s = 0 + ½(2)(5²) = 25 m."
+        },
+        {
+          "q": "What is the effective resistance when two 6Ω resistors are connected in parallel?",
+          "options": [
+            {"t": "3 Ω", "c": true},
+            {"t": "12 Ω", "c": false},
+            {"t": "6 Ω", "c": false},
+            {"t": "1.5 Ω", "c": false}
+          ],
+          "exp": "1/R = 1/6 + 1/6 = 2/6 -> R = 6/2 = 3 Ω."
+        }
+      ]
+    },
+    {
+      "topicName": "Advanced Chemistry & Electromagnetism",
+      "nodeRange": [81, 120],
+      "questions": [
+        {
+          "q": "What mass of CaCO₃ is required to produce 4.4 g of CO₂ upon complete thermal decomposition? (Ca=40, C=12, O=16)",
+          "options": [
+            {"t": "10.0 g", "c": true},
+            {"t": "5.0 g", "c": false},
+            {"t": "20.0 g", "c": false},
+            {"t": "44.0 g", "c": false}
+          ],
+          "exp": "CaCO₃ -> CaO + CO₂. Molar mass CaCO₃ = 100 g/mol, CO₂ = 44 g/mol. Moles CO₂ = 4.4/44 = 0.1 mol. Mass CaCO₃ = 0.1 × 100 = 10.0 g."
+        },
+        {
+          "q": "Calculate the molarity of a solution formed by dissolving 5.85 g of NaCl in distilled water to make 250 cm³ of solution. (Na=23, Cl=35.5)",
+          "options": [
+            {"t": "0.4 M", "c": true},
+            {"t": "0.1 M", "c": false},
+            {"t": "0.8 M", "c": false},
+            {"t": "0.2 M", "c": false}
+          ],
+          "exp": "Molar mass NaCl = 58.5 g/mol. Moles = 5.85 / 58.5 = 0.1 mol. Volume = 0.25 L. Molarity = 0.1 / 0.25 = 0.4 M."
+        },
+        {
+          "q": "A 12V battery with internal resistance 1Ω is connected across two parallel resistors of 6Ω and 3Ω. Calculate the current supplied.",
+          "options": [
+            {"t": "4.0 A", "c": true},
+            {"t": "3.0 A", "c": false},
+            {"t": "6.0 A", "c": false},
+            {"t": "2.4 A", "c": false}
+          ],
+          "exp": "Parallel resistance R_p = (6×3)/(6+3) = 2Ω. Total circuit resistance = 2 + 1 = 3Ω. Current I = 12 / 3 = 4.0 A."
+        }
+      ]
+    }
+  ]
+}

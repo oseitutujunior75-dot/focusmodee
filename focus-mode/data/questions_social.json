@@ -1,0 +1,67 @@
+{
+  "subject": "social",
+  "topics": [
+    {
+      "topicName": "Governance, Democracy & Civic Rights",
+      "nodeRange": [1, 60],
+      "questions": [
+        {
+          "q": "Which arm of government is primarily responsible for the execution and enforcement of laws?",
+          "options": [
+            {"t": "The Executive", "c": true},
+            {"t": "The Legislature", "c": false},
+            {"t": "The Judiciary", "c": false},
+            {"t": "The Press", "c": false}
+          ],
+          "exp": "The Executive branch, headed by the president/cabinet, implements and administers laws."
+        },
+        {
+          "q": "What is the primary purpose of the principle of 'Separation of Powers' in a democratic state?",
+          "options": [
+            {"t": "To prevent tyranny and abuse of power by dividing governmental functions", "c": true},
+            {"t": "To speed up parliamentary debates", "c": false},
+            {"t": "To reduce government expenditure", "c": false},
+            {"t": "To unify all state leadership into one office", "c": false}
+          ],
+          "exp": "Separation of powers ensures checks and balances across the executive, legislative, and judicial branches."
+        },
+        {
+          "q": "Which of the following is considered a fundamental human right enshrined in modern constitutions?",
+          "options": [
+            {"t": "Freedom of speech and expression", "c": true},
+            {"t": "Exemption from paying all municipal taxes", "c": false},
+            {"t": "Immunity from criminal prosecution", "c": false},
+            {"t": "Guaranteed employment in the civil service", "c": false}
+          ],
+          "exp": "Freedom of speech is a universally recognized fundamental civil liberty."
+        }
+      ]
+    },
+    {
+      "topicName": "Socio-Economic Development & Environment",
+      "nodeRange": [61, 120],
+      "questions": [
+        {
+          "q": "What does Sustainable Development primarily aim to achieve?",
+          "options": [
+            {"t": "Meeting current societal needs without compromising the ability of future generations to meet theirs", "c": true},
+            {"t": "Maximized industrial output regardless of carbon emissions", "c": false},
+            {"t": "Strict preservation of all natural resources with zero human utilization", "c": false},
+            {"t": "Rapid urbanization centered around heavy manufacturing", "c": false}
+          ],
+          "exp": "Sustainable development balances economic growth, social inclusion, and environmental protection."
+        },
+        {
+          "q": "Which environmental strategy directly reduces urban vehicle emissions and particulate pollution?",
+          "options": [
+            {"t": "Promoting automated vehicle emissions testing and public transit systems", "c": true},
+            {"t": "Increasing industrial diesel subsidies", "c": false},
+            {"t": "Banning municipal recycling programs", "c": false},
+            {"t": "Encouraging open-air waste burning", "c": false}
+          ],
+          "exp": "Emissions testing units and public transport reduce carbon footprints and improve air quality."
+        }
+      ]
+    }
+  ]
+}
