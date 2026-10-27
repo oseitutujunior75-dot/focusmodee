@@ -1,5 +1,6 @@
 /**
- * FOCUS MODE - Core System Engine (Unified & Updated)
+ * FOCUS MODE - Core System Engine
+ * Fixed: Social Studies now fetches cleanly from data/questions_social.json.
  * Features: Modular JSON Fetching, Fisher-Yates Shuffling, Dynamic 3-to-5 Option Scaling,
  * Tripled Shop Vault Pricing, Cross-Device Sync, and Sanitized Pre-Answer States.
  */
@@ -157,18 +158,15 @@ function shuffleArray(array) {
 }
 
 // --------------------------------------------------------------------------
-// MODULAR QUESTION LOADER & CACHING
+// MODULAR QUESTION LOADER & CACHING (FIXED ROUTING)
 // --------------------------------------------------------------------------
 async function loadSubjectQuestions(subjectKey) {
   if (questionCache[subjectKey]) {
     return questionCache[subjectKey];
   }
 
-  // Fallback map if social studies file doesn't exist yet
-  const fileName = subjectKey === "social" ? "questions_english.json" : `questions_${subjectKey}.json`;
-
   try {
-    const response = await fetch(`data/${fileName}`);
+    const response = await fetch(`data/questions_${subjectKey}.json`);
     if (!response.ok) {
       throw new Error(`Failed to load questions for ${subjectKey}`);
     }
